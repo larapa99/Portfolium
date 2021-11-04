@@ -1,0 +1,62 @@
+{
+	"main": {
+		"university": "Technological Institute of Morelia",
+		"degree": "Computer Systems Engineer"
+	},
+	"data": [
+		{
+			"key": 1,
+			"title": "IINII",
+			"subtitle": "Current work",
+			"image": "/images/iinii.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2022 - Today",
+			"link": "https://www.iiniinternacional.com/",
+			"alias": "IINII",
+			"roles": ["Fullstack Developer", "Team Leader"],
+			"note": "To be announced!"
+		},
+		{
+			"key": 2,
+			"title": "Stardeos",
+			"subtitle": "Current work",
+			"image": "/images/stardeos.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2022 - Today",
+			"link": "https://stardeos.com",
+			"alias": "Stardeos",
+			"roles": ["Fullstack Developer", "Volunteer"],
+			"note": "Standby!"
+		},
+		{
+			"key": 3,
+			"title": "El Tepetate",
+			"subtitle": "Academic Software Factory",
+			"image": "/images/eltepetate.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2019 - 2020",
+			"link": "https://www.granjadetruchas.com/",
+			"alias": "el tepetate",
+			"roles": [
+				"Full Stack Developer",
+				"Team Leader",
+				"Scrum Master",
+				"Designer"
+			],
+			"note": "Page is out of date"
+		},
+		{
+			"key": 4,
+			"title": "Administrative Engineering Master",
+			"subtitle": "Social Service Project",
+			"image": "/images/mia.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2021",
+			"link": "https://morelia.tecnm.mx/mia/",
+			"alias": "MIA",
+			"roles": ["Frontend Developer", "Designer"]
+		}
+	],
+	"header": "EXPERIENCE",
+	"goto": "go to"
+}

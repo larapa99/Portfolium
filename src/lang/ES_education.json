@@ -1,0 +1,42 @@
+{
+	"main": {
+		"university": "Instituto Tecnológico de Morelia",
+		"degree": "Ingeniero en Sistemas Computacionales"
+	},
+	"data": [
+		{
+			"key": 1,
+			"title": "Instituto Tecnológico de México",
+			"subtitle": "Instituto Tecnológico de Morelia",
+			"image": "/images/tecnm.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2017 - 2022",
+			"link": "https://www.morelia.tecnm.mx/",
+			"alias": "tecnm"
+		},
+		{
+			"key": 2,
+			"title": "Cisco",
+			"subtitle": "Netacad",
+			"image": "/images/cisco.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2021",
+			"link": "https://www.netacad.com/",
+			"alias": "netacad"
+		},
+		{
+			"key": 3,
+			"title": "Platzi",
+			"subtitle": "Academia en linea",
+			"image": "/images/platzi.png",
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"date": "2020 - 2021",
+			"link": "https://platzi.com/",
+			"alias": "platzi"
+		}
+	],
+
+	"header": "Educación",
+	"goto": "ir a",
+	"by": "por"
+}
