@@ -1,0 +1,35 @@
+{
+	"demos": [
+		{
+			"key": 1,
+			"title": "Socket Chat",
+			"subtitle": "Real time chat",
+			"images": [
+				"/screenshots/SocketChat.png",
+				"/screenshots/SocketChat2.png"
+			],
+			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"repo_link": "https://github.com/DRKY99/SocketChat",
+			"demo_link": "https://github.com/DRKY99/SocketChat"
+		},
+		{
+			"key": 2,
+			"title": "Python Cypher Tool",
+			"subtitle": "Didactic cipher tool",
+			"images": ["/screenshots/Cypher.png"],
+			"description": "Est culpa nisi adipisicing sint ex do ea laborum quis. Do duis in dolor magna incididunt et ad cillum quis ipsum veniam. Adipisicing incididunt et sit ullamco ullamco occaecat officia occaecat aliquip elit fugiat laborum id sunt. Duis est labore nisi pariatur velit magna quis adipisicing. Amet deserunt tempor commodo fugiat eu cillum ad quis excepteur cupidatat minim. ",
+			"repo_link": "https://github.com/DRKY99/Cypher"
+		},
+		{
+			"key": 3,
+			"title": "Python Cypher Tool",
+			"subtitle": "Didactic cipher tool",
+			"images": ["/screenshots/Cypher.png"],
+			"description": "Est culpa nisi adipisicing sint ex do ea laborum quis. Do duis in dolor magna incididunt et ad cillum quis ipsum veniam. Adipisicing incididunt et sit ullamco ullamco occaecat officia occaecat aliquip elit fugiat laborum id sunt. Duis est labore nisi pariatur velit magna quis adipisicing. Amet deserunt tempor commodo fugiat eu cillum ad quis excepteur cupidatat minim. ",
+			"repo_link": "https://github.com/DRKY99/Cypher"
+		}
+	],
+	"header": "DEmos",
+	"repository": "repository",
+	"try": "try it!"
+}

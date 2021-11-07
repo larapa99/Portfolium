@@ -4,6 +4,7 @@
 	import Skills from "./routes/Skills.svelte";
 	import Education from "./routes/Education.svelte";
 	import Experience from "./routes/Experience.svelte";
+	import Demos from "./routes/Demos.svelte";
 	import More from "./routes/More.svelte";
 	import { onMount } from "svelte";
 	import EN from "./lang/EN_index.json";
@@ -23,7 +24,7 @@
 	let lang = localStorage.getItem("LANG");
 	if (lang === "ES") lang = ES;
 	else lang = EN;
-	let { info, education, experience, skills, more } = lang;
+	let { info, education, experience, skills, more, demos } = lang;
 
 	function reload() {
 		try {
@@ -54,6 +55,9 @@
 				<Link to="/skill">{skills}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
+				<Link to="/demos">{demos}</Link>
+			</li>
+			<li class="menu-item" id="menu-more">
 				<Link to="/more">{more}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
@@ -75,6 +79,9 @@
 		</Route>
 		<Route path="/skill">
 			<Skills />
+		</Route>
+		<Route path="/demos">
+			<Demos />
 		</Route>
 		<Route path="/more">
 			<More />

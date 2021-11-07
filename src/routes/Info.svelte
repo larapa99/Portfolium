@@ -7,7 +7,16 @@
 	let lang = localStorage.getItem("LANG");
 	if (lang === "ES") lang = ES;
 	else lang = EN;
-	let { nickname, degree, name, specialization, description, header } = lang;
+	let {
+		nickname,
+		degree,
+		name,
+		specialization,
+		description,
+		header,
+		download,
+		legend,
+	} = lang;
 
 	const photo = "/images/photo.jpg";
 </script>
@@ -31,6 +40,10 @@
 				{#each description as pharagraph}
 					<p class="description">{pharagraph}</p>
 				{/each}
+				<button id="download">
+					<i class="fas fa-cloud-download-alt" /> {download}</button
+				>
+				<span id="download-legend">{legend}</span>
 				<div id="social-media">
 					<a href="mailto:drkyofficial@gmail.com" id="to-google">
 						<i class="fab fa-google" />
@@ -51,6 +64,35 @@
 {/await}
 
 <style>
+	#download {
+		padding: 10px;
+		margin: 10px;
+		margin-top: 20px;
+		border-width: 0px;
+		background-color: transparent;
+		font-size: 1.5rem;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 70%;
+		align-self: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transition: all 0.3s ease-in-out 0.1s;
+		color: var(--text);
+	}
+	#download:hover {
+		color: var(--primary);
+		transition: all 0.3s ease-in-out 0.1s;
+	}
+	#download i {
+		font-size: 6rem;
+	}
+	#download-legend {
+		text-align: center;
+		font-size: 0.9rem;
+		opacity: 0.5;
+	}
 	.container {
 		display: flex;
 		flex-direction: row;
@@ -118,10 +160,11 @@
 		object-fit: cover;
 		aspect-ratio: 1;
 		margin: 10px;
+		align-self: center;
 	}
 	@media only screen and (min-width: 768px) {
 		.photo {
-			max-height: 500px;
+			max-height: 600px;
 		}
 		h2#name {
 			font-size: 4rem;

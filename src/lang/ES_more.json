@@ -1,0 +1,37 @@
+{
+	"gallery": {
+		"images": [
+			"/screenshots/SocketChat.png",
+			"/screenshots/SocketChat2.png",
+			"/screenshots/SocketChat.png",
+			"/screenshots/SocketChat2.png",
+			"/screenshots/SocketChat.png",
+			"/screenshots/SocketChat2.png",
+			"/screenshots/SocketChat.png",
+			"/screenshots/SocketChat2.png"
+		],
+		"header": "Gallery",
+		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco."
+	},
+	"hobbies": {
+		"header": "Hobbies",
+		"subtitle": "I like to be an digital drawer",
+		"description": "Adipisicing consectetur eu labore labore sad sadwa dasd dasd pdadsklajdpowa dsaoda.",
+		"data": [
+			"drawing is so cool",
+			"coffee is so god damn delicious",
+			"coffee"
+		]
+	},
+	"interests": {
+		"header": "Interests",
+		"subtitle": "I like to be an digital drawer",
+		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco.",
+		"data": [
+			"drawing is so cool",
+			"coffee is so god damn delicious",
+			"coffee"
+		]
+	},
+	"header": "More"
+}
