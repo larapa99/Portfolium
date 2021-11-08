@@ -24,7 +24,7 @@
 	let lang = localStorage.getItem("LANG");
 	if (lang === "ES") lang = ES;
 	else lang = EN;
-	let { info, education, experience, skills, more, demos } = lang;
+	let { info, education, experience, skills, more, demos, footer } = lang;
 
 	function reload() {
 		try {
@@ -88,3 +88,60 @@
 		</Route>
 	</main>
 </Router>
+
+<footer>
+	<div class="raccoon-solutions">
+		<img src="/images/Raccoon_white.png" alt="raccoon" />
+		<h2>drky@raccoonsolutions.net</h2>
+	</div>
+	<div class="beta">
+		{footer.beta}
+	</div>
+</footer>
+
+<style>
+	footer {
+		position: relative;
+		margin-top: 20px;
+		background-color: var(--primary);
+		color: var(--white);
+		padding: 40px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+	footer .beta {
+		align-self: center;
+		text-align: center;
+		margin-top: 20px;
+		opacity: 0.5;
+		text-transform: uppercase;
+	}
+	.raccoon-solutions {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	.raccoon-solutions h2 {
+		font-family: "IBM Plex Mono", monospace;
+		font-size: 0.8rem;
+		margin-top: 10px;
+	}
+	.raccoon-solutions img {
+		width: 50%;
+		height: auto;
+		object-fit: cover;
+	}
+	@media only screen and (min-width: 768px) {
+		.raccoon-solutions img {
+			width: 50%;
+			max-width: 200px;
+			height: auto;
+			object-fit: cover;
+		}
+		.raccoon-solutions h2 {
+			font-size: 1rem;
+		}
+	}
+</style>

@@ -6,11 +6,11 @@
 	"data": [
 		{
 			"key": 1,
-			"title": "Tecnological Institute of Mexico",
-			"subtitle": "Technologial Institute of Morelia",
+			"title": "Instituto Tecnológico de México",
+			"subtitle": "Instituto Tecnológico de Morelia",
 			"image": "/images/tecnm.png",
-			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
-			"date": "2017 - 2022",
+			"description": "I'm studying Computer Systems Engineering at the Instituto Tecnológico de México campus Morelia, I'm about to finish my 9th semester on the specialization of Cybersecurity. I've made a lot of scholar projects about every topic of the informatics, since web technologies to microcontroller and assembly language programing.",
+			"date": "2017 - Today",
 			"link": "https://www.morelia.tecnm.mx/",
 			"alias": "tecnm"
 		},
@@ -19,7 +19,7 @@
 			"title": "Cisco",
 			"subtitle": "Netacad",
 			"image": "/images/cisco.png",
-			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"description": "I have a couple of certificades of the program Cisco CCNA Routing and Switching (CCNA R&S) from Cisco Netacad and the Instituto Tecnológico de Morelia: Introduction to routing and switching; and Network Scaling. \n Also, I have a certificade of Introduction to Cybersecurity by this institute.",
 			"date": "2021",
 			"link": "https://www.netacad.com/",
 			"alias": "netacad"
@@ -29,7 +29,7 @@
 			"title": "Platzi",
 			"subtitle": "Online academy",
 			"image": "/images/platzi.png",
-			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
+			"description": "I've taken many of the courses presented by Platzi as a reinforcement of the topics taken at my university, with this courses I enhanced  my knowledge on some technologies like: Python, JavaScript, NodeJS, React, Docker, Kubernetes, etc.",
 			"date": "2020 - 2021",
 			"link": "https://platzi.com/",
 			"alias": "platzi"

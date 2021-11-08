@@ -1,37 +1,52 @@
 {
 	"gallery": {
 		"images": [
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png"
+			[
+				"/gallery/covita/logo.jpg",
+				"/gallery/covita/halloween.jpg",
+				"/gallery/covita/birthday.jpg"
+			],
+			"/gallery/rose.jpg",
+			"/gallery/skull.jpg",
+			"/gallery/jack.jpg",
+			"/gallery/demon.jpg",
+			"/gallery/anime.jpg"
 		],
-		"header": "Gallery",
-		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco."
+		"header": "Galería",
+		"description": "En mis tiempos libres he realizado diversos trabajos de dibujo digital, hice el logo y mascota de @covita_bazar, el cual es un bazar digital de ropa de segunda mano en Morelia. También he realizado algunos trabajos de diseño gráfico. Considero el dibujo digital uno de mis pasatiempos favoritos desde hace algunos años, a continuación podrá ver algunos de los trabajos que he realizado."
 	},
 	"hobbies": {
-		"header": "Hobbies",
-		"subtitle": "I like to be an digital drawer",
-		"description": "Adipisicing consectetur eu labore labore sad sadwa dasd dasd pdadsklajdpowa dsaoda.",
+		"header": "Pasatiempos",
+		"description": "Adicional a mis estudios, la programación y la ingeniería; tengo otros pasatiempos que han ayudado a mi crecimiento personal en ámbito de destreza y creatividad, algunos de estos pasatiempos son:",
 		"data": [
-			"drawing is so cool",
-			"coffee is so god damn delicious",
-			"coffee"
+			"Dibujo digital",
+			"Diseño gráfico",
+			"Baristería",
+			"Videojuegos",
+			"Series y películas",
+			"electrónica",
+			"Testeo de distros",
+			"cocina"
 		]
 	},
 	"interests": {
-		"header": "Interests",
-		"subtitle": "I like to be an digital drawer",
-		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco.",
+		"header": "Intereses personales",
+		"subtitle": "Soy un entusiasta de la comunidad del software libre",
+		"description": "Dentro del ámbito de la informática, tengo afinidad con la comunidad del software libre y sus valores; soy un entusiasta de GNU/Linux y AOSP. Además de ello, tengo interés por los siguientes temas:",
 		"data": [
-			"drawing is so cool",
-			"coffee is so god damn delicious",
-			"coffee"
+			"ciberseguridad",
+			"sistemas operativos",
+			"probabilidad y estadística",
+			"Programación de bajo nivel",
+			"Baristería",
+			"electrónica",
+			"privacidad",
+			"Blockchain",
+			"Crypto",
+			"fintech",
+			"Dibujo digital",
+			"entre otros..."
 		]
 	},
-	"header": "More"
+	"header": "Más"
 }

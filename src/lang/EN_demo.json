@@ -8,24 +8,15 @@
 				"/screenshots/SocketChat.png",
 				"/screenshots/SocketChat2.png"
 			],
-			"description": "Pariatur incididunt velit consectetur id culpa laborum. Fugiat nostrud velit irure nulla labore nisi. Mollit voluptate do consectetur velit consectetur enim consequat. Duis dolor occaecat nostrud sint sit dolore adipisicing. Voluptate voluptate aliquip consequat excepteur consequat amet. Aliquip id excepteur incididunt incididunt reprehenderit ea exercitation cupidatat quis nulla. Ex exercitation sint tempor magna enim cillum occaecat velit occaecat incididunt.",
-			"repo_link": "https://github.com/DRKY99/SocketChat",
-			"demo_link": "https://github.com/DRKY99/SocketChat"
+			"description": "The web on real time functionalities are pretty important nowadays, a useful tool for this propose are web sockets. This demo is a Socket.IO implementation for a real time web chat.",
+			"repo_link": "https://github.com/DRKY99/SocketChat"
 		},
 		{
 			"key": 2,
 			"title": "Python Cypher Tool",
-			"subtitle": "Didactic cipher tool",
-			"images": ["/screenshots/Cypher.png"],
-			"description": "Est culpa nisi adipisicing sint ex do ea laborum quis. Do duis in dolor magna incididunt et ad cillum quis ipsum veniam. Adipisicing incididunt et sit ullamco ullamco occaecat officia occaecat aliquip elit fugiat laborum id sunt. Duis est labore nisi pariatur velit magna quis adipisicing. Amet deserunt tempor commodo fugiat eu cillum ad quis excepteur cupidatat minim. ",
-			"repo_link": "https://github.com/DRKY99/Cypher"
-		},
-		{
-			"key": 3,
-			"title": "Python Cypher Tool",
-			"subtitle": "Didactic cipher tool",
-			"images": ["/screenshots/Cypher.png"],
-			"description": "Est culpa nisi adipisicing sint ex do ea laborum quis. Do duis in dolor magna incididunt et ad cillum quis ipsum veniam. Adipisicing incididunt et sit ullamco ullamco occaecat officia occaecat aliquip elit fugiat laborum id sunt. Duis est labore nisi pariatur velit magna quis adipisicing. Amet deserunt tempor commodo fugiat eu cillum ad quis excepteur cupidatat minim. ",
+			"subtitle": "Didactic encryption tool",
+			"images": ["/screenshots/Cypher.png", "/screenshots/Cypher2.png"],
+			"description": "One of the most important topics on Cybersecurity is the cryptography, this tool presents an implementation of some weak encryption algorithms so that they are easy to understand, this program was created for educational purposes.",
 			"repo_link": "https://github.com/DRKY99/Cypher"
 		}
 	],

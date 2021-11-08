@@ -1,36 +1,51 @@
 {
 	"gallery": {
 		"images": [
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png",
-			"/screenshots/SocketChat.png",
-			"/screenshots/SocketChat2.png"
+			[
+				"/gallery/covita/logo.jpg",
+				"/gallery/covita/halloween.jpg",
+				"/gallery/covita/birthday.jpg"
+			],
+			"/gallery/rose.jpg",
+			"/gallery/skull.jpg",
+			"/gallery/jack.jpg",
+			"/gallery/demon.jpg",
+			"/gallery/anime.jpg"
 		],
 		"header": "Gallery",
-		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco."
+		"description": "On my free time I have made some digital drawing projects, I made the logo and pet for @covita_bazar, this is a second hand e-bazar in Morelia. Also, I have made some graphic design projects. I consider digital drawing as one of my favourite hobbies since many years ago, next you can see some of the work I have made."
 	},
 	"hobbies": {
 		"header": "Hobbies",
-		"subtitle": "I like to be an digital drawer",
-		"description": "Adipisicing consectetur eu labore labore sad sadwa dasd dasd pdadsklajdpowa dsaoda.",
+		"description": "Besides my studies, programming and engineering; I have another hobbies that have helped to my personal growth in terms of skill and creativity, some of them are:",
 		"data": [
-			"drawing is so cool",
-			"coffee is so god damn delicious",
-			"coffee"
+			"digital drawing",
+			"graphic design",
+			"latte art",
+			"videogames",
+			"Movies and series",
+			"electronics",
+			"Distro Testing",
+			"cooking"
 		]
 	},
 	"interests": {
 		"header": "Interests",
-		"subtitle": "I like to be an digital drawer",
-		"description": "Adipisicing consectetur eu labore labore exercitation cupidatat incididunt dolore labore magna culpa excepteur cillum. Tempor magna amet non veniam tempor adipisicing consequat dolor proident. Id ullamco irure nostrud fugiat laboris ullamco aute reprehenderit ea eu. Aliquip consectetur ut est consequat magna cillum sint elit pariatur ut nostrud elit. Exercitation veniam consequat culpa consectetur cupidatat excepteur. Laboris cillum occaecat proident ullamco.",
+		"subtitle": "I'm an Open Source Community enthusiast!",
+		"description": "Within the scope of informatics, I have afinity on the Open Source Community and its ethical values; I'm a GNU/LInux and AOSP enthusiast. Also, I have interest for the next topics:",
 		"data": [
-			"drawing is so cool",
-			"coffee is so god damn delicious",
-			"coffee"
+			"cibersecurity",
+			"operative systems",
+			"probability & statistics",
+			"low level programming",
+			"latte art",
+			"electronics",
+			"privacy",
+			"blockchain",
+			"crypto",
+			"fintech",
+			"digital drawing",
+			"many more..."
 		]
 	},
 	"header": "More"

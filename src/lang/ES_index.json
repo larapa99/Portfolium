@@ -4,5 +4,8 @@
 	"experience": "Experiencia",
 	"skills": "habilidades",
 	"demos": "demos",
-	"more": "más"
+	"more": "más",
+	"footer": {
+		"beta": "esta página está en desarrollo, alguna información puede cambiar"
+	}
 }
