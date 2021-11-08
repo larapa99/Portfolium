@@ -3,7 +3,6 @@
 	import ES from "../lang/ES_info.json";
 	import { fade, blur } from "svelte/transition";
 	import { preload } from "../scripts/functions";
-
 	let lang = localStorage.getItem("LANG");
 	if (lang === "ES") lang = ES;
 	else lang = EN;
@@ -41,7 +40,7 @@
 			{#each description as pharagraph}
 				<p class="description">{pharagraph}</p>
 			{/each}
-			<button id="download"> {download}</button>
+			<a id="download" href="/cv.pdf">{download}</a>
 			<span id="download-legend">{legend}</span>
 			<div id="social-media">
 				<a href="mailto:drky@raccoonsolutions.net" id="to-mail">
@@ -73,6 +72,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		text-decoration: none;
 		transition: all 0.3s ease-in-out 0.1s;
 		color: var(--white);
 		border-color: var(--background);
