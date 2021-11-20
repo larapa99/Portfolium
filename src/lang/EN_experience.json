@@ -58,5 +58,24 @@
 		}
 	],
 	"header": "EXPERIENCE",
-	"goto": "go to"
+	"goto": "go to",
+	"description": [
+		"On the cybersecurity specialization I have worked on many academic projects related. These activities include cisco routers and switches configuration, Mikrotiks and Iptables firewall configuration, Information Security Management System (ISMS) plannning and configuration, Cloud computing based tools configuration (TrueNAS, Serverless, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes). network scanning practices, penetration testing practices, hardening practices, unidirectional and bidirectional encryption practices.",
+		"I have worked with the suite of tools of Kali Linux and Parrot OS, The tools I have used to make those activities include: "
+	],
+	"ctools": [
+		"Nmap",
+		"Metasploit",
+		"Aircrack-ng",
+		"Nessus",
+		"OpenVAS",
+		"John The Reaper",
+		"Hashcat",
+		"Burpsuite Professional",
+		"Zphisher",
+		"Sherlock",
+		"Joomscan",
+		"Lynis",
+		"Wireshark"
+	]
 }

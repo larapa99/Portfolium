@@ -58,5 +58,24 @@
 		}
 	],
 	"header": "Experiencia",
-	"goto": "ir a"
+	"goto": "ir a",
+	"description": [
+		"Dentro de la especialidad de ciberseguridad he realizado varios proyectos escolares relacionados a esta área. Entre estas actividades se encuentran la configuración de routers y switches cisco, configuraciones de firewall con Mikrotiks e Iptables, planteamiento y configuración de Sistemas de Gestión de la Seguridad de la información (SGSI), configuración de herramientas basadas en cloud computing (TrueNAS, Serverless, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes), prácticas de escaneo de redes, prácticas de penetration testing, prácticas de hardening, pácticas de cifrado unidireccional y bidireccional.",
+		"He trabajado con la suite de herramientas que presta Kali Linux y Parrot OS, dentro de las herramientas que he utilizado para realizar las actividades mencionadas se encuentran: "
+	],
+	"ctools": [
+		"Nmap",
+		"Metasploit",
+		"Aircrack-ng",
+		"Nessus",
+		"OpenVAS",
+		"John The Reaper",
+		"Hashcat",
+		"Burpsuite Professional",
+		"Zphisher",
+		"Sherlock",
+		"Joomscan",
+		"Lynis",
+		"Wireshark"
+	]
 }
