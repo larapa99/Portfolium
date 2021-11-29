@@ -18,6 +18,22 @@
 			"images": ["/screenshots/Cypher.png", "/screenshots/Cypher2.png"],
 			"description": "Uno de los temas más importantes de la ciberseguridad es la criptografía, en esta herramienta se presenta la implementación de algunos algorítmos de cifrado débil de forma que sean fáciles de compreender, este programa fue elaborado con fines didácticos.",
 			"repo_link": "https://github.com/DRKY99/Cypher"
+		},
+		{
+			"key": 3,
+			"title": "AQUATA",
+			"subtitle": "Plataforma de administración de granja trutícola",
+			"images": [
+				"/screenshots/aquata.png",
+				"/screenshots/aquata2.png",
+				"/screenshots/aquata3.png",
+				"/screenshots/aquata4.png",
+				"/screenshots/aquata5.png",
+				"/screenshots/aquata6.png",
+				"/screenshots/aquata7.png"
+			],
+			"description": "Este proyecto es parte de mi experiencia trabajando con la granja trutícola El Tepetate, formó parte de un concurso de la Fábrica Académica de Software del Instituto Tecnológico de Morelia en el periodo Enero-Julio 2020. Con esta plataforma obtuvimos el 1er lugar empatando con el equipo Dragonware.",
+			"repo_link": "https://gitlab.com/larapa/aquata-2.0"
 		}
 	],
 	"header": "Demos",

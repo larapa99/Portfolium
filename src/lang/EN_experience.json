@@ -6,13 +6,13 @@
 	"data": [
 		{
 			"key": 1,
-			"title": "IINII",
+			"title": "DIINCO",
 			"subtitle": "Current work",
-			"image": "/images/iinii.png",
-			"description": "Nowadays, I'm working as a FullStack developer at IINII on a currently private project. Also, I do the Team Leader role on this project, I'm very happy with my performance and the working environment at this enterprise. As soon as this project gets public, I'll be giving more details about this stage.",
-			"date": "2022 - Today",
-			"link": "https://www.iiniinternacional.com/",
-			"alias": "IINII",
+			"image": "/images/diinco.png",
+			"description": "Nowadays, I'm working as a FullStack developer at DIINCO, a web-based platform for remote project management. Also, I do the Team Leader role on this project, I'm very happy with my performance and the working environment at this enterprise.",
+			"date": "2021 - Today",
+			"link": "https://www.instagram.com/diincooficial_/",
+			"alias": "DIINCO",
 			"roles": ["Fullstack Developer", "Team Leader"],
 			"note": "To be announced!"
 		},
@@ -22,7 +22,7 @@
 			"subtitle": "Current work",
 			"image": "/images/stardeos.png",
 			"description": "I've been working as volunteer colaborator at Stardeos for a short period of time, this project is being leaded by the youtuber DalasReview. On this project I've made optimization and security contributions. Also, I've worked as FullStack developer on this project.",
-			"date": "2022 - Today",
+			"date": "2021 - Today",
 			"link": "https://stardeos.com",
 			"alias": "Stardeos",
 			"roles": ["Fullstack Developer", "Volunteer"],
