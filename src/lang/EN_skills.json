@@ -37,6 +37,11 @@
 			"level": 4.5
 		},
 		{
+			"name": "PowerShell",
+			"image": "/images/powershell.png",
+			"level": 3
+		},
+		{
 			"name": "C++",
 			"image": "/images/cpp.png",
 			"level": 4
@@ -114,6 +119,11 @@
 			"level": 2.5
 		},
 		{
+			"name": "Next.Js",
+			"image": "/images/nextjs.png",
+			"level": 2.5
+		},
+		{
 			"name": "Laravel",
 			"image": "/images/laravel.png",
 			"level": 4
@@ -171,6 +181,31 @@
 			"level": 3
 		},
 		{
+			"name": "Netskope",
+			"image": "/images/netskope.png",
+			"level": 3
+		},
+		{
+			"name": "CloudHealth Secure State",
+			"image": "/images/cloudhealth.png",
+			"level": 3
+		},
+		{
+			"name": "Wiz.io",
+			"image": "/images/wiz.png",
+			"level": 3
+		},
+		{
+			"name": "ServiceNow",
+			"image": "/images/snc.png",
+			"level": 3
+		},
+		{
+			"name": "Tableau",
+			"image": "/images/tableau.png",
+			"level": 3
+		},
+		{
 			"name": "Packet Tracer",
 			"image": "/images/ptracer.png",
 			"level": 3
@@ -219,6 +254,16 @@
 			"name": "Microsoft Office",
 			"image": "/images/moffice.png",
 			"level": 4
+		},
+		{
+			"name": "Microsoft Excel",
+			"image": "/images/excel.png",
+			"level": 4
+		},
+		{
+			"name": "QEMU",
+			"image": "/images/qemu.png",
+			"level": 4
 		}
 	],
 	"technologies": [
@@ -228,9 +273,44 @@
 			"level": 4
 		},
 		{
+			"name": "Windows",
+			"image": "/images/windows.png",
+			"level": 4
+		},
+		{
+			"name": "MacOS",
+			"image": "/images/macos.png",
+			"level": 4
+		},
+		{
+			"name": "AWS",
+			"image": "/images/aws.png",
+			"level": 4
+		},
+		{
+			"name": "Azure",
+			"image": "/images/azure.png",
+			"level": 4
+		},
+		{
+			"name": "GCP",
+			"image": "/images/gcp.png",
+			"level": 4
+		},
+		{
 			"name": "MySQL",
 			"image": "/images/mysql.png",
 			"level": 4.5
+		},
+		{
+			"name": "SQL Server",
+			"image": "/images/mssql.png",
+			"level": 4
+		},
+		{
+			"name": "SQLite",
+			"image": "/images/sqlite.png",
+			"level": 4
 		},
 		{
 			"name": "MariaDB",
@@ -300,6 +380,11 @@
 		{
 			"name": "Arduino",
 			"image": "/images/arduino.png",
+			"level": 4
+		},
+		{
+			"name": "Kubernetes",
+			"image": "/images/kubernetes.png",
 			"level": 4
 		}
 	]

@@ -6,62 +6,77 @@
 	"data": [
 		{
 			"key": 1,
-			"title": "DIINCO",
-			"subtitle": "Trabajo actual",
-			"image": "/images/diinco.png",
-			"description": "Actualmente estoy trabajando como desarrollador FullStack en DIINCO, una plataforma web dedicada a la administración de proyecto a distancia. También cumplo con el rol de líder de proyecto en esta empresa, estoy muy contento con mi desempeño y el ámbiente de trabajo.",
-			"date": "2021 - Hoy",
-			"link": "https://www.instagram.com/diincooficial_/",
-			"alias": "DIINCO",
-			"roles": ["Desarrollador Fullstack", "Lider de equipo"],
-			"note": "Por anunciarse"
+			"title": "FLEX",
+			"subtitle": "Analista de Seguridad Informática",
+			"image": "/images/flex.png",
+			"description": "Actualmente, estoy trabajando como analista de seguridad informática en FLEX. Comencé como estudiante haciendo prácticas profesionales de la universidad y he recibido muy buenos comentarios acerca de mi desempeño en la compañia. He hecho contribuciones relacionados a la automatización de procesos internos, auditorias internas de seguridad en la nube, administración y operaciones de servicios en la nube, y más.",
+			"date": "2022 - Hoy",
+			"link": "https://flex.com",
+			"alias": "FLEX",
+			"roles": [
+				"AuditoríasInternas",
+				"Ciberseguridad",
+				"Automatización",
+				"AdministraciónDeSeguridad"
+			]
 		},
 		{
 			"key": 2,
-			"title": "Stardeos",
-			"subtitle": "Trabajo actual",
-			"image": "/images/stardeos.png",
-			"description": "He estado como colaborador voluntario de Stardeos por un corto periodo de tiempo, este proyecto esta siendo liderado por el Youtuber DalasReview. En este proyecto he realizado aportaciones de optimización y seguridad. Además, he realizado aportaciones como desarrollador FullStack.",
+			"title": "DIINCO",
+			"subtitle": "Lider de desarrollo y operaciones",
+			"image": "/images/diinco.png",
+			"description": "DIINCO es una startup que proveé herramientas informáticas para la gestión de proyectos de infrastructura. He colaborado en este proyecto como ingeniero full-stack desde la fundación del equipo. Actualmente, colaboro con el equipo entrenando a nuevos miembros, integrando prácticas y herramientas de seguridad a nivel compañía. Además, en la operación y administración de servicios.",
 			"date": "2021 - Hoy",
-			"link": "https://stardeos.com",
-			"alias": "Stardeos",
-			"roles": ["Desarrollador Fullstack", "Voluntario"],
-			"note": "En espera"
+			"link": "https://diinco.com",
+			"alias": "DIINCO",
+			"roles": [
+				"DesarrolladorFullstack",
+				"LiderDeDesarrollo",
+				"PlaneaciónDeSeguridad"
+			]
 		},
 		{
 			"key": 3,
+			"title": "Stardeos",
+			"subtitle": "Desarrollador",
+			"image": "/images/stardeos.png",
+			"description": "Trabajé como colaborador voluntario de Stardeos por un corto periodo de tiempo, este proyecto esta siendo liderado por el Youtuber DalasReview. En este proyecto he realizado aportaciones de optimización y seguridad. Además, he realizado aportaciones como desarrollador FullStack.",
+			"date": "2021",
+			"link": "https://stardeos.com",
+			"alias": "Stardeos",
+			"roles": ["DesarrolladorFullstack"]
+		},
+		{
+			"key": 4,
 			"title": "El Tepetate",
-			"subtitle": "Fabrica Académica de Software",
+			"subtitle": "Desarrollador FullStack",
 			"image": "/images/eltepetate.png",
 			"description": "Como proyecto de la Fábrica Académica de Software del Instituto Tecnológico de Morelia, realizamos una plataforma de administración para la granja trutícola El tepetate, basada en tecnologías web. Este proyecto formó parte de un concurso de ingeniería dentro de la institución en el cual mi equipo (Raccoon Solutions) empató en primer lugar con Dragonware.",
 			"date": "2019 - 2020",
 			"link": "https://www.granjadetruchas.com/",
 			"alias": "el tepetate",
-			"roles": [
-				"Desarrollador FullStack",
-				"Lider de equipo",
-				"Scrum Master",
-				"Diseñador"
-			],
-			"note": "Página desactualizada"
+			"roles": ["DesarrolladorFullStack", "LiderDeEquipo", "Diseñador"],
+			"note": "Fábrica Académica de Software"
 		},
 		{
-			"key": 4,
+			"key": 5,
 			"title": "Maestría en Ingeniería Administrativa",
-			"subtitle": "Proyecto de Servicio Social",
+			"subtitle": "Desarrollador Frontend",
 			"image": "/images/mia.png",
 			"description": "Como proyecto de servicio social, mi compañero devcydo y yo, nos encagamos de la página de presentación de la Maestría en Ingeniería Administrativa del Instituto Tecnológico de Morelia. Además de este proyecto, realizamos mantenimiento de software y hardware al equipo de computo del laboratorio de Ingeniería Industrial y realizamos un manual de introduccion al análisis estadístico con Python.",
 			"date": "2021",
 			"link": "https://morelia.tecnm.mx/mia/",
 			"alias": "MIA",
-			"roles": ["Desarrollador Frontend", "Diseñador"]
+			"roles": ["DesarrolladorFrontend", "Diseñador"],
+			"note": "Proyecto de Servicio Social"
 		}
 	],
 	"header": "Experiencia",
 	"goto": "ir a",
 	"description": [
-		"Dentro de la especialidad de ciberseguridad he realizado varios proyectos escolares relacionados a esta área. Entre estas actividades se encuentran la configuración de routers y switches cisco, configuraciones de firewall con Mikrotiks e Iptables, planteamiento y configuración de Sistemas de Gestión de la Seguridad de la información (SGSI), configuración de herramientas basadas en cloud computing (TrueNAS, Serverless, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes), prácticas de escaneo de redes, prácticas de penetration testing, prácticas de hardening, pácticas de cifrado unidireccional y bidireccional.",
-		"He trabajado con la suite de herramientas que presta Kali Linux y Parrot OS, dentro de las herramientas que he utilizado para realizar las actividades mencionadas se encuentran: "
+		"Dentro de la especialidad de ciberseguridad he trabajado en varios proyectos academicos relacionados a esta área. Estas actividades incluyen la configuración de routers y switches de Cisco, configuración de firewall con IPtables y mikrotiks, hardening con SELinux, planeación y configuración de Sistemas de Gestión de la Seguridad de la Información (SGSI), configuración de herramientas basadas en virtualización (TrueNAS, XenServer, VMware EXSi, OpenStack, Docker y Kubernetes), prácticas de escaneo de redes, practicas de pruebas de penetración y explotación de vulnerabilidades, prácticas de fortalecimiento de sistemas, prácticas de enctiptación unidireccional y bidireccional.",
+		"He tenido la oportunidad de entrar al equipo de Seguridad en la nube de FLEX como estudiante. Actualmente estoy trabajando como analista de seguridad informática. He trabajado con tecnologías de la nube y herramientas y equipos de seguridad de alto nivel.",
+		"He trabajado con la suite de herramientas de Kali Linux y de Parrot OS para pruebas de penetración y explotación de vulnerabilidades, también he administrado diversas herramientas de seguridad preventiva."
 	],
 	"ctools": [
 		"Nmap",
@@ -76,6 +91,9 @@
 		"Sherlock",
 		"Joomscan",
 		"Lynis",
-		"Wireshark"
+		"Wireshark",
+		"Multi-purpose Cloud Security Management tools",
+		"Cloud Security Posture Management",
+		"Cloud Access Security Broker"
 	]
 }

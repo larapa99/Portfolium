@@ -6,62 +6,77 @@
 	"data": [
 		{
 			"key": 1,
-			"title": "DIINCO",
-			"subtitle": "Current work",
-			"image": "/images/diinco.png",
-			"description": "Nowadays, I'm working as a FullStack developer at DIINCO, a web-based platform for remote project management. Also, I do the Team Leader role on this project, I'm very happy with my performance and the working environment at this enterprise.",
-			"date": "2021 - Today",
-			"link": "https://www.instagram.com/diincooficial_/",
-			"alias": "DIINCO",
-			"roles": ["Fullstack Developer", "Team Leader"],
-			"note": "To be announced!"
+			"title": "FLEX",
+			"subtitle": "IT Security Analyst",
+			"image": "/images/flex.png",
+			"description": "Nowadays, I'm working as IT Security Analyst on FLEX. I started as Student on practices and I have receive very good comments about my cotribution on this company. I have made contributions on internal processes automation, internal security audits, cloud services management and operations, data analysis, and more.",
+			"date": "2022 - Today",
+			"link": "https://flex.com",
+			"alias": "FLEX",
+			"roles": [
+				"InternalAudits",
+				"Cybersecurity",
+				"Automation",
+				"SecurityManagement"
+			]
 		},
 		{
 			"key": 2,
-			"title": "Stardeos",
-			"subtitle": "Current work",
-			"image": "/images/stardeos.png",
-			"description": "I've been working as volunteer colaborator at Stardeos for a short period of time, this project is being leaded by the youtuber DalasReview. On this project I've made optimization and security contributions. Also, I've worked as FullStack developer on this project.",
+			"title": "DIINCO",
+			"subtitle": "Development/Operations Leader",
+			"image": "/images/diinco.png",
+			"description": "DIINCO is a startup that provides web-based management tools for infrastructure projects. I have collaborate on this project as full stack engineer since the team foundation. Nowadays, I'm collaborating with the team providing trainings to new members, integrating security implementations at company level. Also, on services operations and management.",
 			"date": "2021 - Today",
-			"link": "https://stardeos.com",
-			"alias": "Stardeos",
-			"roles": ["Fullstack Developer", "Volunteer"],
-			"note": "Standby!"
+			"link": "diinco.com",
+			"alias": "DIINCO",
+			"roles": [
+				"FullstackEngineer",
+				"DevelopmentLeader",
+				"SecurityPlanning"
+			]
 		},
 		{
 			"key": 3,
+			"title": "Stardeos",
+			"subtitle": "Developer",
+			"image": "/images/stardeos.png",
+			"description": "I've been working as volunteer colaborator at Stardeos for a short period of time, this project is being leaded by the youtuber DalasReview. On this project I've made optimization and security contributions. Also, I've worked as FullStack developer on this project.",
+			"date": "2021",
+			"link": "https://stardeos.com",
+			"alias": "Stardeos",
+			"roles": ["FullstackDeveloper"]
+		},
+		{
+			"key": 4,
 			"title": "El Tepetate",
-			"subtitle": "Academic Software Factory",
+			"subtitle": "FullStack Developer",
 			"image": "/images/eltepetate.png",
 			"description": "As project for the Academic Software Factory of the Instituto Tecnológico de Morelia, we made a web technologies based administration platform for the trout farm El Tepetate. This project took part of a engineering contest on the institution, my team (Raccoon Solutions) drawn the 1st place with Dragonware.",
 			"date": "2019 - 2020",
 			"link": "https://www.granjadetruchas.com/",
 			"alias": "el tepetate",
-			"roles": [
-				"Full Stack Developer",
-				"Team Leader",
-				"Scrum Master",
-				"Designer"
-			],
-			"note": "Page is out of date"
+			"roles": ["FullStackDeveloper", "TeamLeader", "Designer"],
+			"note": "Academic Software Factory"
 		},
 		{
-			"key": 4,
+			"key": 5,
 			"title": "Administrative Engineering Master",
-			"subtitle": "Social Service Project",
+			"subtitle": "Frontend Developer",
 			"image": "/images/mia.png",
 			"description": "As social service project, my teammate devcydo and me, made the presentation web page for the Administrative Engineering Master at the Instituto Tecnológico de Morelia. Also, we made software and hardware maintenance to the Industrial Engineering computer laboratory and we also made an introductory manual to statístic analysis with Python.",
 			"date": "2021",
 			"link": "https://morelia.tecnm.mx/mia/",
 			"alias": "MIA",
-			"roles": ["Frontend Developer", "Designer"]
+			"roles": ["FrontendDeveloper", "Designer"],
+			"note": "Social Service Project"
 		}
 	],
 	"header": "EXPERIENCE",
 	"goto": "go to",
 	"description": [
-		"On the cybersecurity specialization I have worked on many academic projects related. These activities include cisco routers and switches configuration, Mikrotiks and Iptables firewall configuration, Information Security Management System (ISMS) plannning and configuration, Cloud computing based tools configuration (TrueNAS, Serverless, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes). network scanning practices, penetration testing practices, hardening practices, unidirectional and bidirectional encryption practices.",
-		"I have worked with the suite of tools of Kali Linux and Parrot OS, The tools I have used to make those activities include: "
+		"On the cybersecurity specialization I have worked on many academic projects related. These activities include cisco routers and switches configuration, Mikrotiks and Iptables firewall configuration, hardening wiht SELinux, Information Security Management System (ISMS) plannning and configuration, Virtualization-based tools configuration (TrueNAS, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes). network scanning practices, penetration testing and vuln exploitation practices, hardening practices, unidirectional and bidirectional encryption practices.",
+		"I had the oportunity to join Cloud Cybersecurity Team at FLEX as intern, I'm currently working as IT Security Analyst. I have worked with Cloud-based technologies, high-level security tools and teams.",
+		"I have worked with the suite of tools of Kali Linux and Parrot OS for penetration testing assesments and I have manage several preventive tools."
 	],
 	"ctools": [
 		"Nmap",
@@ -76,6 +91,9 @@
 		"Sherlock",
 		"Joomscan",
 		"Lynis",
-		"Wireshark"
+		"Wireshark",
+		"Multi-purpose Cloud Security Management tools",
+		"Cloud Security Posture Management",
+		"Cloud Access Security Broker"
 	]
 }
