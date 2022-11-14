@@ -9,14 +9,14 @@
 	"header": "Habilidades",
 	"langs": [
 		{
-			"name": "English",
+			"name": "Inglés",
 			"level": 4,
 			"image": "/images/en.png"
 		},
 		{
-			"name": "Spanish",
+			"name": "Español",
 			"level": 5,
-			"note": "Mother Language",
+			"note": "Lenguaje principal",
 			"image": "/images/spa.png"
 		}
 	],

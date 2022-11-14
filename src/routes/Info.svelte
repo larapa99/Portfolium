@@ -45,7 +45,7 @@
 			>
 			<span id="download-legend">{legend}</span>
 			<div id="social-media">
-				<a href="mailto:drky@raccoonsolutions.net" id="to-mail">
+				<a href="mailto:drkyofficial@gmail.com" id="to-mail">
 					<i class="fas fa-envelope  fa-xs" />
 				</a>
 				<a href="https://github.com/DRKY99" id="to-github">
