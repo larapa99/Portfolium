@@ -3,7 +3,6 @@
 	import ES from "../lang/ES_info.json";
 	import { fade, blur } from "svelte/transition";
 	import { preload } from "../scripts/functions";
-
 	let lang = localStorage.getItem("LANG");
 	if (lang === "ES") lang = ES;
 	else lang = EN;
@@ -21,76 +20,75 @@
 	const photo = "/images/photo.jpg";
 </script>
 
-{#await preload(photo) then _}
-	<div class="fscreen" in:fade={{ duration: 2000 }}>
-		<h1 class="no-point">{header}</h1>
-		<div class="container">
-			<div class="col-6 centered">
+<div class="fscreen" in:fade={{ duration: 2000 }}>
+	<h1 class="no-point">{header}</h1>
+	<div class="container">
+		<div class="col-6 centered preloading">
+			{#await preload(photo) then _}
 				<img
 					src={photo}
 					alt="DRKY"
 					class="photo"
-					in:blur={{ duration: 1000 }}
+					in:blur={{ duration: 2000 }}
 				/>
-			</div>
-			<div class="col-6 body">
-				<h2 id="name">{name}</h2>
-				<h3 id="degree">{degree}</h3>
-				<h4 id="specialization">{specialization}</h4>
-				{#each description as pharagraph}
-					<p class="description">{pharagraph}</p>
-				{/each}
-				<button id="download">
-					<i class="fas fa-cloud-download-alt" /> {download}</button
-				>
-				<span id="download-legend">{legend}</span>
-				<div id="social-media">
-					<a href="mailto:drkyofficial@gmail.com" id="to-google">
-						<i class="fab fa-google" />
-					</a>
-					<a href="https://github.com/DRKY99" id="to-github">
-						<i class="fab fa-github" />
-					</a>
-					<a
-						href="https://www.linkedin.com/in/drky/"
-						id="to-linkedin"
-					>
-						<i class="fab fa-linkedin" />
-					</a>
-				</div>
+			{/await}
+		</div>
+		<div class="col-6 body">
+			<h2 id="name">{name}</h2>
+			<h3 id="degree">{degree}</h3>
+			<h4 id="specialization">{specialization}</h4>
+			{#each description as pharagraph}
+				<p class="description">{pharagraph}</p>
+			{/each}
+			<a id="download" href="/Ariel_Lara_Pedraza_Public_CV_EN.pdf"
+				>{download}</a
+			>
+			<span id="download-legend">{legend}</span>
+			<div id="social-media">
+				<a href="mailto:drkyofficial@gmail.com" id="to-mail">
+					<i class="fas fa-envelope  fa-xs" />
+				</a>
+				<a href="https://github.com/DRKY99" id="to-github">
+					<i class="fab fa-github fa-xs " />
+				</a>
+				<a href="https://www.linkedin.com/in/drky/" id="to-linkedin">
+					<i class="fab fa-linkedin fa-xs" />
+				</a>
 			</div>
 		</div>
 	</div>
-{/await}
+</div>
 
 <style>
 	#download {
 		padding: 10px;
 		margin: 10px;
-		margin-top: 20px;
-		border-width: 0px;
-		background-color: transparent;
+		margin-top: 30px;
+		border-width: 2px;
 		font-size: 1.5rem;
-		border-radius: 5px;
+		border-radius: 10px;
 		cursor: pointer;
-		width: 70%;
+		width: 100%;
+		border-style: solid;
 		align-self: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		text-decoration: none;
 		transition: all 0.3s ease-in-out 0.1s;
-		color: var(--text);
+		color: var(--white);
+		border-color: var(--background);
+		background-color: var(--primary-light);
 	}
 	#download:hover {
-		color: var(--primary);
 		transition: all 0.3s ease-in-out 0.1s;
-	}
-	#download i {
-		font-size: 6rem;
+		color: var(--primary-light);
+		border-color: var(--primary-light);
+		background-color: transparent;
 	}
 	#download-legend {
 		text-align: center;
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 		opacity: 0.5;
 	}
 	.container {
@@ -105,16 +103,18 @@
 		justify-content: center;
 		align-content: center;
 		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	.body h2 {
+		color: var(--primary-light);
 	}
 
 	#social-media {
-		margin-top: 3rem;
 		display: flex;
 		flex-direction: row;
+		font-size: 5rem;
 		justify-content: space-around;
-	}
-	#social-media .fab {
-		font-size: 3rem;
 	}
 	#social-media a {
 		color: var(--text);
@@ -124,7 +124,7 @@
 		color: #0e76a8;
 		transition: all 0.3s ease-in-out 0.1s;
 	}
-	#to-google :hover {
+	#to-mail :hover {
 		color: #de5246;
 		transition: all 0.3s ease-in-out 0.1s;
 	}
@@ -159,18 +159,29 @@
 		border-radius: 5%;
 		object-fit: cover;
 		aspect-ratio: 1;
-		margin: 10px;
 		align-self: center;
+	}
+	.preloading {
+		min-height: 70vw;
 	}
 	@media only screen and (min-width: 768px) {
 		.photo {
 			max-height: 600px;
 		}
+		.preloading {
+			min-height: 600px;
+		}
 		h2#name {
 			font-size: 4rem;
 		}
-		#social-media .fab {
-			font-size: 5rem;
+		#social-media {
+			font-size: 8rem;
+		}
+		#download-legend {
+			font-size: 1rem;
+		}
+		.body {
+			margin-top: 0px;
 		}
 	}
 </style>

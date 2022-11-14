@@ -33,15 +33,15 @@
 				<ItemCard {item} />
 			{/each}
 		</div>
-		<h2>{titles["frameworks"]}</h2>
-		<div class="items">
-			{#each frameworks as item, index}
-				<ItemCard {item} />
-			{/each}
-		</div>
 		<h2>{titles["tools"]}</h2>
 		<div class="items">
 			{#each tools as item, index}
+				<ItemCard {item} />
+			{/each}
+		</div>
+		<h2>{titles["frameworks"]}</h2>
+		<div class="items">
+			{#each frameworks as item, index}
 				<ItemCard {item} />
 			{/each}
 		</div>

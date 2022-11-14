@@ -147,6 +147,7 @@
 		.image {
 			width: 100%;
 			border-radius: 2%;
+			height: 300px;
 		}
 		.title-container {
 			display: flex;

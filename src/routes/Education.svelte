@@ -51,7 +51,7 @@
 		text-align: center;
 	}
 	.main b {
-		color: var(--primary);
+		color: var(--primary-light);
 	}
 	@media only screen and (min-width: 768px) {
 		.main p {

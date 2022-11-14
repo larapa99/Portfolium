@@ -1,6 +1,7 @@
 <script>
 	import { fade, fly, slide } from "svelte/transition";
 	import ImageCard from "../components/ImageCard.svelte";
+	import ImageGroupCard from "../components/ImageGroupCard.svelte";
 	import EN from "../lang/EN_more.json";
 	import ES from "../lang/ES_more.json";
 
@@ -72,7 +73,11 @@
 		</div>
 		<div class="image-container">
 			{#each gallery.images as image}
-				<ImageCard {image} />
+				{#if typeof image === typeof ""}
+					<ImageCard {image} />
+				{:else if typeof image === typeof []}
+					<ImageGroupCard group={image} />
+				{/if}
 			{/each}
 		</div>
 	</div>

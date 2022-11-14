@@ -14,13 +14,14 @@
 	--white: #fcfcfc;
 	--black: #222222;
 
-	--primary: var(--blue);
+	--primary: var(--blue-light);
 	--primary-light: var(--blue-light);
 
 	--secondary: var(--red);
 	--secondary-light: var(--red-light);
 
 	--text: var(--black);
+	--accent: #aaa;
 	--background: var(--white);
 
 	--dark-text: var(--white);
@@ -52,6 +53,7 @@
 
 		--text: var(--white);
 		--background: var(--black);
+		--accent: #444;
 
 		--dark-text: var(--black);
 		--dark-background: var(--white);
@@ -124,13 +126,13 @@ body {
 }
 
 .fscreen {
-	height: 100vh;
 	width: 100%;
 	padding-top: 10vh;
 	padding-right: 10px;
 	padding-left: 10px;
 	display: block;
 	color: var(--text);
+	min-height: 100vh;
 }
 
 .fscreen h1 {
@@ -214,10 +216,38 @@ li.menu-item:focus {
 }
 
 li.menu-item :hover {
-	color: var(--text);
+	color: var(--primary-light);
+	border-color: var(--primary-light);
 	text-decoration: none;
 	font-size: 2rem;
 	opacity: 1;
 	transition: all 0.3s ease-in-out 0.1s;
 	cursor: pointer;
 }
+
+/* @media only screen and (min-width: 768px) {
+	::-webkit-scrollbar {
+		background-color: var(--accent);
+	}
+
+	::-webkit-scrollbar:vertical {
+		width: 10px;
+	}
+
+	::-webkit-scrollbar-button:increment,
+	.contenedor::-webkit-scrollbar-button {
+		display: none;
+	}
+
+	::-webkit-scrollbar:horizontal {
+		height: 10px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: var(--text);
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+	}
+} */

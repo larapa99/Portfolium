@@ -16,7 +16,7 @@
 			/>
 		{/if}
 		<p>{item.name}</p>
-		{#if item.level}
+		<!-- {#if item.level}
 			<div class="stars">
 				{#each Array(Math.floor(item.level)) as _, i}
 					<i class="fas fa-star" />
@@ -28,7 +28,7 @@
 					<i class="far fa-star" />
 				{/each}
 			</div>
-		{/if}
+		{/if} -->
 	</div>
 {/await}
 
