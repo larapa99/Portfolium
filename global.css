@@ -1,0 +1,253 @@
+:root {
+	--blue: #26547c;
+	--blue-light: #2e8bdd;
+
+	--red: #ef476f;
+	--red-light: #f87b98;
+
+	--yellow: #ffd166;
+	--yellow-light: #ffdf94;
+
+	--green: #06d6a0;
+	--green-light: #37fcc7;
+
+	--white: #fcfcfc;
+	--black: #222222;
+
+	--primary: var(--blue-light);
+	--primary-light: var(--blue-light);
+
+	--secondary: var(--red);
+	--secondary-light: var(--red-light);
+
+	--text: var(--black);
+	--accent: #aaa;
+	--background: var(--white);
+
+	--dark-text: var(--white);
+	--dark-background: var(--black);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--blue: #26547c;
+		--blue-light: #2e8bdd;
+
+		--red: #ef476f;
+		--red-light: #f87b98;
+
+		--yellow: #ffd166;
+		--yellow-light: #ffdf94;
+
+		--green: #06d6a0;
+		--green-light: #37fcc7;
+
+		--white: #fcfcfc;
+		--black: #222222;
+
+		--primary: var(--blue);
+		--primary-light: var(--blue-light);
+
+		--secondary: var(--red);
+		--secondary-light: var(--red-light);
+
+		--text: var(--white);
+		--background: var(--black);
+		--accent: #444;
+
+		--dark-text: var(--black);
+		--dark-background: var(--white);
+	}
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Kanit", sans-serif;
+	background-color: var(--background);
+}
+
+body {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.centered {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	.col-1 {
+		width: 8.33%;
+	}
+	.col-2 {
+		width: 16.66%;
+	}
+	.col-3 {
+		width: 25%;
+	}
+	.col-4 {
+		width: 33.33%;
+	}
+	.col-5 {
+		width: 41.66%;
+	}
+	.col-6 {
+		width: 50%;
+	}
+	.col-7 {
+		width: 58.33%;
+	}
+	.col-8 {
+		width: 66.66%;
+	}
+	.col-9 {
+		width: 75%;
+	}
+	.col-10 {
+		width: 83.33%;
+	}
+	.col-11 {
+		width: 91.66%;
+	}
+	.col-12 {
+		width: 100%;
+	}
+}
+
+.fscreen {
+	width: 100%;
+	padding-top: 10vh;
+	padding-right: 10px;
+	padding-left: 10px;
+	display: block;
+	color: var(--text);
+	min-height: 100vh;
+}
+
+.fscreen h1 {
+	font-size: 3.5rem;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.fscreen h1::after {
+	content: ".";
+	display: inline-block;
+}
+.fscreen .no-point::after {
+	display: none;
+}
+@media only screen and (min-width: 768px) {
+	.fscreen {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	.fscreen h1 {
+		margin-bottom: 10px;
+		font-size: 8rem;
+		text-align: start;
+	}
+}
+
+nav#menu-nav {
+	width: 100%;
+	position: fixed;
+	background-color: var(--background);
+	z-index: 4000;
+}
+
+ul#menu-list {
+	list-style-type: none;
+	text-align: center;
+	overflow: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	line-height: 80px;
+	height: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+	justify-content: center;
+	align-content: center;
+}
+
+li.menu-item {
+	display: inline-block;
+	text-transform: uppercase;
+}
+li.menu-item::after {
+	content: "";
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+li.menu-item a {
+	color: var(--text);
+	font-size: 1.5rem;
+	opacity: 0.2;
+	text-decoration: none;
+	cursor: default;
+	transition: all 0.3s ease-in-out 0.1s;
+}
+li.menu-item button {
+	color: var(--text);
+	background-color: var(--background);
+	border-radius: 10%;
+	padding: 10px;
+	font-size: 1.5rem;
+	opacity: 0.2;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out 0.1s;
+}
+li.menu-item:focus {
+	color: var(--text);
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+li.menu-item :hover {
+	color: var(--primary-light);
+	border-color: var(--primary-light);
+	text-decoration: none;
+	font-size: 2rem;
+	opacity: 1;
+	transition: all 0.3s ease-in-out 0.1s;
+	cursor: pointer;
+}
+
+/* @media only screen and (min-width: 768px) {
+	::-webkit-scrollbar {
+		background-color: var(--accent);
+	}
+
+	::-webkit-scrollbar:vertical {
+		width: 10px;
+	}
+
+	::-webkit-scrollbar-button:increment,
+	.contenedor::-webkit-scrollbar-button {
+		display: none;
+	}
+
+	::-webkit-scrollbar:horizontal {
+		height: 10px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: var(--text);
+	}
+
+	::-webkit-scrollbar-track {
+		border-radius: 10px;
+	}
+} */
