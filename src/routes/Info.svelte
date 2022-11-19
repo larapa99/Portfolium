@@ -40,7 +40,9 @@
 			{#each description as pharagraph}
 				<p class="description">{pharagraph}</p>
 			{/each}
-			<a id="download" href="/Ariel_Lara_Pedraza_Public_CV_EN.pdf"
+			<a
+				id="download"
+				href={process.env.PATH + "/Ariel_Lara_Pedraza_CV_Nov_2022.pdf"}
 				>{download}</a
 			>
 			<span id="download-legend">{legend}</span>
