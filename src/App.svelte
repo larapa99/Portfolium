@@ -95,7 +95,7 @@
 			src={process.env.PATH + "/images/Raccoon_white.png"}
 			alt="raccoon"
 		/>
-		<h2>drky@raccoonsolutions.net</h2>
+		<h2>drkyofficial@gmail.com</h2>
 	</div>
 	<div class="beta">
 		{footer.beta}
