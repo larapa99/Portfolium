@@ -5,8 +5,8 @@
 			"title": "Socket Chat",
 			"subtitle": "Chat en tiempo real",
 			"images": [
-				"/screenshots/SocketChat.png",
-				"/screenshots/SocketChat2.png"
+				"__root_path/screenshots/SocketChat.png",
+				"__root_path/screenshots/SocketChat2.png"
 			],
 			"description": "Las funciones de la web en tiempo real son muy importantes hoy en día, una herramienta útil para este propósito son los web sockets. Este demo es una implementación básica de Socket.IO para una aplicación web de chat en tiempo real.",
 			"repo_link": "https://github.com/DRKY99/SocketChat"
@@ -15,7 +15,10 @@
 			"key": 2,
 			"title": "Python Cypher Tool",
 			"subtitle": "Herramienta didáctica de cifrado",
-			"images": ["/screenshots/Cypher.png", "/screenshots/Cypher2.png"],
+			"images": [
+				"__root_path/screenshots/Cypher.png",
+				"__root_path/screenshots/Cypher2.png"
+			],
 			"description": "Uno de los temas más importantes de la ciberseguridad es la criptografía, en esta herramienta se presenta la implementación de algunos algorítmos de cifrado débil de forma que sean fáciles de compreender, este programa fue elaborado con fines didácticos.",
 			"repo_link": "https://github.com/DRKY99/Cypher"
 		},
@@ -24,13 +27,13 @@
 			"title": "AQUATA",
 			"subtitle": "Plataforma de administración de granja trutícola",
 			"images": [
-				"/screenshots/aquata.png",
-				"/screenshots/aquata2.png",
-				"/screenshots/aquata3.png",
-				"/screenshots/aquata4.png",
-				"/screenshots/aquata5.png",
-				"/screenshots/aquata6.png",
-				"/screenshots/aquata7.png"
+				"__root_path/screenshots/aquata.png",
+				"__root_path/screenshots/aquata2.png",
+				"__root_path/screenshots/aquata3.png",
+				"__root_path/screenshots/aquata4.png",
+				"__root_path/screenshots/aquata5.png",
+				"__root_path/screenshots/aquata6.png",
+				"__root_path/screenshots/aquata7.png"
 			],
 			"description": "Este proyecto es parte de mi experiencia trabajando con la granja trutícola El Tepetate, formó parte de un concurso de la Fábrica Académica de Software del Instituto Tecnológico de Morelia en el periodo Enero-Julio 2020. Con esta plataforma obtuvimos el 1er lugar empatando con el equipo Dragonware.",
 			"repo_link": "https://gitlab.com/larapa/aquata-2.0"

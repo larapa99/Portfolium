@@ -44,22 +44,14 @@ export default {
 		file: "public/build/bundle.js",
 	},
 	plugins: [
-		replace([
-			{
-				include: ["src/**/*.ts", "src/**/*.svelte"],
-				preventAssignment: true,
-				values: {
-					"process.env.PATH": "'/Portfolium'",
-				},
+		replace({
+			include: ["src/**/*.ts", "src/**/*.svelte", "src/lang/*.json"],
+			preventAssignment: true,
+			values: {
+				"process.env.PATH": "'/Portfolium'",
+				__root_path: "/Portfolium/",
 			},
-			{
-				include: ["src/lang/*.json"],
-				preventAssignment: true,
-				values: {
-					'"/': '"/Portfolium/',
-				},
-			},
-		]),
+		}),
 		svelte({
 			compilerOptions: {
 				// enable run-time checks when not in production

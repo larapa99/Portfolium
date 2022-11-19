@@ -5,8 +5,8 @@
 			"title": "Socket Chat",
 			"subtitle": "Real time chat",
 			"images": [
-				"/screenshots/SocketChat.png",
-				"/screenshots/SocketChat2.png"
+				"__root_path/screenshots/SocketChat.png",
+				"__root_path/screenshots/SocketChat2.png"
 			],
 			"description": "The web on real time functionalities are pretty important nowadays, a useful tool for this propose are web sockets. This demo is a Socket.IO implementation for a real time web chat.",
 			"repo_link": "https://github.com/DRKY99/SocketChat"
@@ -15,7 +15,10 @@
 			"key": 2,
 			"title": "Python Cypher Tool",
 			"subtitle": "Didactic encryption tool",
-			"images": ["/screenshots/Cypher.png", "/screenshots/Cypher2.png"],
+			"images": [
+				"__root_path/screenshots/Cypher.png",
+				"__root_path/screenshots/Cypher2.png"
+			],
 			"description": "One of the most important topics on Cybersecurity is the cryptography, this tool presents an implementation of some weak encryption algorithms so that they are easy to understand, this program was created for educational purposes.",
 			"repo_link": "https://github.com/DRKY99/Cypher"
 		},
@@ -24,13 +27,13 @@
 			"title": "AQUATA",
 			"subtitle": "Trout farm administrative platform",
 			"images": [
-				"/screenshots/aquata.png",
-				"/screenshots/aquata2.png",
-				"/screenshots/aquata3.png",
-				"/screenshots/aquata4.png",
-				"/screenshots/aquata5.png",
-				"/screenshots/aquata6.png",
-				"/screenshots/aquata7.png"
+				"__root_path/screenshots/aquata.png",
+				"__root_path/screenshots/aquata2.png",
+				"__root_path/screenshots/aquata3.png",
+				"__root_path/screenshots/aquata4.png",
+				"__root_path/screenshots/aquata5.png",
+				"__root_path/screenshots/aquata6.png",
+				"__root_path/screenshots/aquata7.png"
 			],
 			"description": "This project is part of my experience working with the trout farm El Tepetate, it was part of the contest of Academic Software Factory of the Technological Institute of Morelia in the period January-July 2020. With this platform we obtained the 1st place tying with the Dragonware Team",
 			"repo_link": "https://gitlab.com/larapa/aquata-2.0"

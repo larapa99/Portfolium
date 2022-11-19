@@ -2,16 +2,16 @@
 	"gallery": {
 		"images": [
 			[
-				"/gallery/Covita/logo.jpg",
-				"/gallery/Covita/halloween.jpg",
-				"/gallery/Covita/birthday.jpg"
+				"__root_path/gallery/Covita/logo.jpg",
+				"__root_path/gallery/Covita/halloween.jpg",
+				"__root_path/gallery/Covita/birthday.jpg"
 			],
-			"/gallery/rose.jpg",
-			"/gallery/glider.png",
-			"/gallery/skull.jpg",
-			"/gallery/jack.jpg",
-			"/gallery/demon.jpg",
-			"/gallery/anime.jpg"
+			"__root_path/gallery/rose.jpg",
+			"__root_path/gallery/glider.png",
+			"__root_path/gallery/skull.jpg",
+			"__root_path/gallery/jack.jpg",
+			"__root_path/gallery/demon.jpg",
+			"__root_path/gallery/anime.jpg"
 		],
 		"header": "Gallery",
 		"description": "On my free time I have made some digital drawing projects, I made the logo and pet for @covita_bazar, this is a second hand e-bazar in Morelia. Also, I have made some graphic design projects. I consider digital drawing as one of my favourite hobbies since many years ago, next you can see some of the work I have made."

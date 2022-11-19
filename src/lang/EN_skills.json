@@ -11,380 +11,380 @@
 		{
 			"name": "English",
 			"level": 4,
-			"image": "/images/en.png"
+			"image": "__root_path/images/en.png"
 		},
 		{
 			"name": "Spanish",
 			"level": 5,
 			"note": "Mother Language",
-			"image": "/images/spa.png"
+			"image": "__root_path/images/spa.png"
 		}
 	],
 	"plangs": [
 		{
 			"name": "Python",
-			"image": "/images/python.png",
+			"image": "__root_path/images/python.png",
 			"level": 5
 		},
 		{
 			"name": "JavaScript",
-			"image": "/images/js.png",
+			"image": "__root_path/images/js.png",
 			"level": 4.5
 		},
 		{
 			"name": "Java",
-			"image": "/images/java.png",
+			"image": "__root_path/images/java.png",
 			"level": 4.5
 		},
 		{
 			"name": "PowerShell",
-			"image": "/images/powershell.png",
+			"image": "__root_path/images/powershell.png",
 			"level": 3
 		},
 		{
 			"name": "C++",
-			"image": "/images/cpp.png",
+			"image": "__root_path/images/cpp.png",
 			"level": 4
 		},
 		{
 			"name": "PHP",
-			"image": "/images/php.png",
+			"image": "__root_path/images/php.png",
 			"level": 4
 		},
 		{
 			"name": "C#",
-			"image": "/images/csharp.png",
+			"image": "__root_path/images/csharp.png",
 			"level": 4.5
 		},
 		{
 			"name": "C",
-			"image": "/images/c.png",
+			"image": "__root_path/images/c.png",
 			"level": 4
 		},
 		{
 			"name": "Kotlin",
-			"image": "/images/kotlin.png",
+			"image": "__root_path/images/kotlin.png",
 			"level": 4
 		},
 		{
 			"name": "SQL",
-			"image": "/images/sql.png",
+			"image": "__root_path/images/sql.png",
 			"level": 4.5
 		},
 		{
 			"name": "Assembly",
-			"image": "/images/asm.png",
+			"image": "__root_path/images/asm.png",
 			"level": 3
 		},
 		{
 			"name": "TypeScript",
-			"image": "/images/typescript.png",
+			"image": "__root_path/images/typescript.png",
 			"level": 4
 		}
 	],
 	"frameworks": [
 		{
 			"name": "React/Native",
-			"image": "/images/react.png",
+			"image": "__root_path/images/react.png",
 			"level": 4.5
 		},
 		{
 			"name": "Materialize CSS",
-			"image": "/images/materialize.png",
+			"image": "__root_path/images/materialize.png",
 			"level": 5
 		},
 		{
 			"name": "Bootstrap",
-			"image": "/images/bootstrap.png",
+			"image": "__root_path/images/bootstrap.png",
 			"level": 4.5
 		},
 		{
 			"name": "UIkit CSS",
-			"image": "/images/uikit.png",
+			"image": "__root_path/images/uikit.png",
 			"level": 5
 		},
 		{
 			"name": "JWT",
-			"image": "/images/jwt.png",
+			"image": "__root_path/images/jwt.png",
 			"level": 3.5
 		},
 		{
 			"name": "Express",
-			"image": "/images/express.png",
+			"image": "__root_path/images/express.png",
 			"level": 4
 		},
 		{
 			"name": "Svelte",
-			"image": "/images/svelte.png",
+			"image": "__root_path/images/svelte.png",
 			"level": 2.5
 		},
 		{
 			"name": "Next.Js",
-			"image": "/images/nextjs.png",
+			"image": "__root_path/images/nextjs.png",
 			"level": 2.5
 		},
 		{
 			"name": "Laravel",
-			"image": "/images/laravel.png",
+			"image": "__root_path/images/laravel.png",
 			"level": 4
 		},
 		{
 			"name": "Socket.io",
-			"image": "/images/socketio.png",
+			"image": "__root_path/images/socketio.png",
 			"level": 4
 		},
 		{
 			"name": "Sequelize",
-			"image": "/images/sequelize.png",
+			"image": "__root_path/images/sequelize.png",
 			"level": 4
 		},
 		{
 			"name": "Material UI",
-			"image": "/images/materialui.png",
+			"image": "__root_path/images/materialui.png",
 			"level": 5
 		},
 		{
 			"name": "Selenium",
-			"image": "/images/selenium.png",
+			"image": "__root_path/images/selenium.png",
 			"level": 4
 		},
 		{
 			"name": "jQuery",
-			"image": "/images/jquery.png",
+			"image": "__root_path/images/jquery.png",
 			"level": 4
 		},
 		{
 			"name": "WordPress",
-			"image": "/images/wordpress.png",
+			"image": "__root_path/images/wordpress.png",
 			"level": 4
 		}
 	],
 	"tools": [
 		{
 			"name": "VirtualBox",
-			"image": "/images/virtualbox.png",
+			"image": "__root_path/images/virtualbox.png",
 			"level": 4.5
 		},
 		{
 			"name": "VMWare",
-			"image": "/images/vmware.png",
+			"image": "__root_path/images/vmware.png",
 			"level": 4.5
 		},
 		{
 			"name": "Hyper-V",
-			"image": "/images/hyperv.png",
+			"image": "__root_path/images/hyperv.png",
 			"level": 3
 		},
 		{
 			"name": "VMWare EXSI",
-			"image": "/images/exsi.png",
+			"image": "__root_path/images/exsi.png",
 			"level": 3
 		},
 		{
 			"name": "Netskope",
-			"image": "/images/netskope.png",
+			"image": "__root_path/images/netskope.png",
 			"level": 3
 		},
 		{
 			"name": "CloudHealth Secure State",
-			"image": "/images/cloudhealth.png",
+			"image": "__root_path/images/cloudhealth.png",
 			"level": 3
 		},
 		{
 			"name": "Wiz.io",
-			"image": "/images/wiz.png",
+			"image": "__root_path/images/wiz.png",
 			"level": 3
 		},
 		{
 			"name": "ServiceNow",
-			"image": "/images/snc.png",
+			"image": "__root_path/images/snc.png",
 			"level": 3
 		},
 		{
 			"name": "Tableau",
-			"image": "/images/tableau.png",
+			"image": "__root_path/images/tableau.png",
 			"level": 3
 		},
 		{
 			"name": "Packet Tracer",
-			"image": "/images/ptracer.png",
+			"image": "__root_path/images/ptracer.png",
 			"level": 3
 		},
 		{
 			"name": "Photoshop",
-			"image": "/images/photoshop.png",
+			"image": "__root_path/images/photoshop.png",
 			"level": 3
 		},
 		{
 			"name": "Illustrator",
-			"image": "/images/illustrator.png",
+			"image": "__root_path/images/illustrator.png",
 			"level": 3
 		},
 		{
 			"name": "Medibang",
-			"image": "/images/medibang.png",
+			"image": "__root_path/images/medibang.png",
 			"level": 4
 		},
 		{
 			"name": "Krita",
-			"image": "/images/krita.png",
+			"image": "__root_path/images/krita.png",
 			"level": 3.5
 		},
 		{
 			"name": "Gimp",
-			"image": "/images/gimp.png",
+			"image": "__root_path/images/gimp.png",
 			"level": 2
 		},
 		{
 			"name": "Android Studio",
-			"image": "/images/astudio.png",
+			"image": "__root_path/images/astudio.png",
 			"level": 2
 		},
 		{
 			"name": "Cinema 4D",
-			"image": "/images/c4d.png",
+			"image": "__root_path/images/c4d.png",
 			"level": 2
 		},
 		{
 			"name": "Cheat Engine",
-			"image": "/images/cengine.png",
+			"image": "__root_path/images/cengine.png",
 			"level": 3
 		},
 		{
 			"name": "Microsoft Office",
-			"image": "/images/moffice.png",
+			"image": "__root_path/images/moffice.png",
 			"level": 4
 		},
 		{
 			"name": "Microsoft Excel",
-			"image": "/images/excel.png",
+			"image": "__root_path/images/excel.png",
 			"level": 4
 		},
 		{
 			"name": "QEMU",
-			"image": "/images/qemu.png",
+			"image": "__root_path/images/qemu.png",
 			"level": 4
 		}
 	],
 	"technologies": [
 		{
 			"name": "Linux",
-			"image": "/images/linux.png",
+			"image": "__root_path/images/linux.png",
 			"level": 4
 		},
 		{
 			"name": "Windows",
-			"image": "/images/windows.png",
+			"image": "__root_path/images/windows.png",
 			"level": 4
 		},
 		{
 			"name": "MacOS",
-			"image": "/images/macos.png",
+			"image": "__root_path/images/macos.png",
 			"level": 4
 		},
 		{
 			"name": "AWS",
-			"image": "/images/aws.png",
+			"image": "__root_path/images/aws.png",
 			"level": 4
 		},
 		{
 			"name": "Azure",
-			"image": "/images/azure.png",
+			"image": "__root_path/images/azure.png",
 			"level": 4
 		},
 		{
 			"name": "GCP",
-			"image": "/images/gcp.png",
+			"image": "__root_path/images/gcp.png",
 			"level": 4
 		},
 		{
 			"name": "MySQL",
-			"image": "/images/mysql.png",
+			"image": "__root_path/images/mysql.png",
 			"level": 4.5
 		},
 		{
 			"name": "SQL Server",
-			"image": "/images/mssql.png",
+			"image": "__root_path/images/mssql.png",
 			"level": 4
 		},
 		{
 			"name": "SQLite",
-			"image": "/images/sqlite.png",
+			"image": "__root_path/images/sqlite.png",
 			"level": 4
 		},
 		{
 			"name": "MariaDB",
-			"image": "/images/mariadb.png",
+			"image": "__root_path/images/mariadb.png",
 			"level": 4.5
 		},
 		{
 			"name": "MongoDB",
-			"image": "/images/mongo.png",
+			"image": "__root_path/images/mongo.png",
 			"level": 4
 		},
 		{
 			"name": "PostgreSQL",
-			"image": "/images/postgresql.png",
+			"image": "__root_path/images/postgresql.png",
 			"level": 4.5
 		},
 		{
 			"name": "Redis",
-			"image": "/images/redis.png",
+			"image": "__root_path/images/redis.png",
 			"level": 2
 		},
 		{
 			"name": "Firebase",
-			"image": "/images/firebase.png",
+			"image": "__root_path/images/firebase.png",
 			"level": 3.5
 		},
 		{
 			"name": "Docker",
-			"image": "/images/docker.png",
+			"image": "__root_path/images/docker.png",
 			"level": 3
 		},
 		{
 			"name": "Apache",
-			"image": "/images/apache.png",
+			"image": "__root_path/images/apache.png",
 			"level": 3
 		},
 		{
 			"name": "NodeJS",
-			"image": "/images/nodejs.png",
+			"image": "__root_path/images/nodejs.png",
 			"level": 4
 		},
 		{
 			"name": "HTML",
-			"image": "/images/html.png",
+			"image": "__root_path/images/html.png",
 			"level": 5
 		},
 		{
 			"name": "CSS",
-			"image": "/images/css.png",
+			"image": "__root_path/images/css.png",
 			"level": 4
 		},
 		{
 			"name": "GIT",
-			"image": "/images/git.png",
+			"image": "__root_path/images/git.png",
 			"level": 4
 		},
 		{
 			"name": "Android",
-			"image": "/images/android.png",
+			"image": "__root_path/images/android.png",
 			"level": 2
 		},
 		{
 			"name": "Raspberry Pi",
-			"image": "/images/rpi.png",
+			"image": "__root_path/images/rpi.png",
 			"level": 4.5
 		},
 		{
 			"name": "Arduino",
-			"image": "/images/arduino.png",
+			"image": "__root_path/images/arduino.png",
 			"level": 4
 		},
 		{
 			"name": "Kubernetes",
-			"image": "/images/kubernetes.png",
+			"image": "__root_path/images/kubernetes.png",
 			"level": 4
 		}
 	]

@@ -2,16 +2,16 @@
 	"gallery": {
 		"images": [
 			[
-				"/gallery/Covita/logo.jpg",
-				"/gallery/Covita/halloween.jpg",
-				"/gallery/Covita/birthday.jpg"
+				"__root_path/gallery/Covita/logo.jpg",
+				"__root_path/gallery/Covita/halloween.jpg",
+				"__root_path/gallery/Covita/birthday.jpg"
 			],
-			"/gallery/rose.jpg",
-			"/gallery/glider.png",
-			"/gallery/skull.jpg",
-			"/gallery/jack.jpg",
-			"/gallery/demon.jpg",
-			"/gallery/anime.jpg"
+			"__root_path/gallery/rose.jpg",
+			"__root_path/gallery/glider.png",
+			"__root_path/gallery/skull.jpg",
+			"__root_path/gallery/jack.jpg",
+			"__root_path/gallery/demon.jpg",
+			"__root_path/gallery/anime.jpg"
 		],
 		"header": "Galería",
 		"description": "En mis tiempos libres he realizado diversos trabajos de dibujo digital, hice el logo y mascota de @covita_bazar, el cual es un bazar digital de ropa de segunda mano en Morelia. También he realizado algunos trabajos de diseño gráfico. Considero el dibujo digital uno de mis pasatiempos favoritos desde hace algunos años, a continuación podrá ver algunos de los trabajos que he realizado."
