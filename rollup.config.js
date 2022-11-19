@@ -46,7 +46,6 @@ export default {
 	plugins: [
 		replace({
 			include: ["src/**/*.ts", "src/**/*.svelte", "src/lang/*.json"],
-			preventAssignment: true,
 			values: {
 				"process.env.PATH": "'/Portfolium'",
 				__root_path: "/Portfolium/",
