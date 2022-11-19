@@ -43,22 +43,22 @@
 	<nav id="menu-nav">
 		<ul id="menu-list">
 			<li class="menu-item" id="menu-info">
-				<Link to="/">{info}</Link>
+				<Link to={process.env.PATH + "/"}>{info}</Link>
 			</li>
 			<li class="menu-item" id="menu-education">
-				<Link to="/education">{education}</Link>
+				<Link to={process.env.PATH + "/education"}>{education}</Link>
 			</li>
 			<li class="menu-item" id="menu-experience">
-				<Link to="/experience">{experience}</Link>
+				<Link to={process.env.PATH + "/experience"}>{experience}</Link>
 			</li>
 			<li class="menu-item" id="menu-skill">
-				<Link to="/skill">{skills}</Link>
+				<Link to={process.env.PATH + "/skill"}>{skills}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
-				<Link to="/demos">{demos}</Link>
+				<Link to={process.env.PATH + "/demos"}>{demos}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
-				<Link to="/more">{more}</Link>
+				<Link to={process.env.PATH + "/more"}>{more}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
 				<button on:click={reload}>{_lang === "EN" ? "ES" : "EN"}</button
@@ -68,22 +68,22 @@
 	</nav>
 
 	<main>
-		<Route path="/">
+		<Route path={process.env.PATH + "/"}>
 			<Info />
 		</Route>
-		<Route path="/education">
+		<Route path={process.env.PATH + "/education"}>
 			<Education />
 		</Route>
-		<Route path="/experience">
+		<Route path={process.env.PATH + "/experience"}>
 			<Experience />
 		</Route>
-		<Route path="/skill">
+		<Route path={process.env.PATH + "/skill"}>
 			<Skills />
 		</Route>
-		<Route path="/demos">
+		<Route path={process.env.PATH + "/demos"}>
 			<Demos />
 		</Route>
-		<Route path="/more">
+		<Route path={process.env.PATH + "/more"}>
 			<More />
 		</Route>
 	</main>
@@ -91,7 +91,10 @@
 
 <footer>
 	<div class="raccoon-solutions">
-		<img src="/images/Raccoon_white.png" alt="raccoon" />
+		<img
+			src={process.env.PATH + "/images/Raccoon_white.png"}
+			alt="raccoon"
+		/>
 		<h2>drky@raccoonsolutions.net</h2>
 	</div>
 	<div class="beta">
