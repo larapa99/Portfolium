@@ -17,7 +17,7 @@
 		legend,
 	} = lang;
 
-	const photo = "/images/photo.jpg";
+	const photo = process.env.PATH + "/images/photo.jpg";
 </script>
 
 <div class="fscreen" in:fade={{ duration: 2000 }}>
