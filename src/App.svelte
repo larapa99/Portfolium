@@ -35,7 +35,7 @@
 		} catch (error) {
 			localStorage.setItem("LANG", "EN");
 		}
-		window.location.reload();
+		window.location.replace(process.env.PATH);
 	}
 </script>
 
