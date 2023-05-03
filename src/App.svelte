@@ -42,6 +42,10 @@
 <Router>
 	<nav id="menu-nav">
 		<ul id="menu-list">
+			<li class="menu-item" id="menu-lang">
+				<button on:click={reload}>{_lang === "EN" ? "ES" : "EN"}</button
+				>
+			</li>
 			<li class="menu-item" id="menu-info">
 				<Link to={process.env.PATH + "/"}>{info}</Link>
 			</li>
@@ -54,15 +58,11 @@
 			<li class="menu-item" id="menu-skill">
 				<Link to={process.env.PATH + "/skill"}>{skills}</Link>
 			</li>
-			<li class="menu-item" id="menu-more">
+			<li class="menu-item" id="menu-demo">
 				<Link to={process.env.PATH + "/demos"}>{demos}</Link>
 			</li>
 			<li class="menu-item" id="menu-more">
 				<Link to={process.env.PATH + "/more"}>{more}</Link>
-			</li>
-			<li class="menu-item" id="menu-more">
-				<button on:click={reload}>{_lang === "EN" ? "ES" : "EN"}</button
-				>
 			</li>
 		</ul>
 	</nav>

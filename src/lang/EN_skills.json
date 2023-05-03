@@ -80,6 +80,11 @@
 			"name": "TypeScript",
 			"image": "__root_path/images/typescript.png",
 			"level": 4
+		},
+		{
+			"name": "Bash",
+			"image": "__root_path/images/bash.png",
+			"level": 4
 		}
 	],
 	"frameworks": [
@@ -263,6 +268,11 @@
 		{
 			"name": "QEMU",
 			"image": "__root_path/images/qemu.png",
+			"level": 4
+		},
+		{
+			"name": "Tableau",
+			"image": "__root_path/images/tableau.png",
 			"level": 4
 		}
 	],
