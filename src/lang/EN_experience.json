@@ -6,11 +6,26 @@
 	"data": [
 		{
 			"key": 1,
+			"title": "Softtek",
+			"subtitle": "Vulnerability Management & Security Operations Center",
+			"image": "__root_path/images/softtek.png",
+			"description": "Nowadays, I'm working as Vulnerability Manager & SOC member on Softtek. I collaborate with multiple teams to lead to vulnerability remediation to enhance customer security. Also, I focus on security research by using internal security tools to identify security risks and possible breaches.",
+			"date": "2023 - Today",
+			"link": "https://softtek.com",
+			"alias": "Softtek",
+			"roles": [
+				"VulnerabilityManagement",
+				"Cybersecurity",
+				"SecurityOperationsCenter"
+			]
+		},
+		{
+			"key": 2,
 			"title": "FLEX",
 			"subtitle": "IT Security Analyst",
 			"image": "__root_path/images/flex.png",
-			"description": "Nowadays, I'm working as IT Security Analyst on FLEX. I started as Student on practices and I have receive very good comments about my cotribution on this company. I have made contributions on internal processes automation, internal security audits, cloud services management and operations, data analysis, and more.",
-			"date": "2022 - Today",
+			"description": "I started as Student on practices and growth as IT Security Analyst. Also, I made multiple contributions on internal processes automation, internal security audits, cloud services management and operations, data analysis, and more.",
+			"date": "2022 - 2023",
 			"link": "https://flex.com",
 			"alias": "FLEX",
 			"roles": [
@@ -21,12 +36,12 @@
 			]
 		},
 		{
-			"key": 2,
+			"key": 3,
 			"title": "DIINCO",
-			"subtitle": "Development/Operations Leader",
+			"subtitle": "Full-stack engineer & Security SysAdmin",
 			"image": "__root_path/images/diinco.png",
-			"description": "DIINCO is a startup that provides web-based management tools for infrastructure projects. I have collaborate on this project as full stack engineer since the team foundation. Nowadays, I'm collaborating with the team providing trainings to new members, integrating security implementations at company level. Also, on services operations and management.",
-			"date": "2021 - Today",
+			"description": "DIINCO is a startup that provides web-based management tools for infrastructure projects. I have collaborate on this project as full stack engineer since the team foundation. I have also collaborated with the team providing training to new members, integrating security implementations at company level. Also, on services operations and management.",
+			"date": "2021 - 2022",
 			"link": "diinco.com",
 			"alias": "DIINCO",
 			"roles": [
@@ -36,22 +51,11 @@
 			]
 		},
 		{
-			"key": 3,
-			"title": "Stardeos",
-			"subtitle": "Developer",
-			"image": "__root_path/images/stardeos.png",
-			"description": "I've been working as volunteer colaborator at Stardeos for a short period of time, this project is being leaded by the youtuber DalasReview. On this project I've made optimization and security contributions. Also, I've worked as FullStack developer on this project.",
-			"date": "2021",
-			"link": "https://stardeos.com",
-			"alias": "Stardeos",
-			"roles": ["FullstackDeveloper"]
-		},
-		{
 			"key": 4,
 			"title": "El Tepetate",
 			"subtitle": "FullStack Developer",
 			"image": "__root_path/images/eltepetate.png",
-			"description": "As project for the Academic Software Factory of the Instituto Tecnológico de Morelia, we made a web technologies based administration platform for the trout farm El Tepetate. This project took part of a engineering contest on the institution, my team (Raccoon Solutions) drawn the 1st place with Dragonware.",
+			"description": "As project for the Academic Software Factory of the Instituto Tecnológico de Morelia, we made a web technologies based administration platform for the trout farm El Tepetate. This project took part of a engineering contest on the institution.",
 			"date": "2019 - 2020",
 			"link": "https://www.granjadetruchas.com/",
 			"alias": "el tepetate",
@@ -74,26 +78,18 @@
 	"header": "EXPERIENCE",
 	"goto": "go to",
 	"description": [
-		"On the cybersecurity specialization I have worked on many academic projects related. These activities include cisco routers and switches configuration, Mikrotiks and Iptables firewall configuration, hardening wiht SELinux, Information Security Management System (ISMS) plannning and configuration, Virtualization-based tools configuration (TrueNAS, XenServer, VMWare ESXi, OpenStack, Docker y Kubernetes). network scanning practices, penetration testing and vuln exploitation practices, hardening practices, unidirectional and bidirectional encryption practices.",
-		"I had the oportunity to join Cloud Cybersecurity Team at FLEX as intern, I'm currently working as IT Security Analyst. I have worked with Cloud-based technologies, high-level security tools and teams.",
-		"I have worked with the suite of tools of Kali Linux and Parrot OS for penetration testing assesments and I have manage several preventive tools."
+		"I'm a cybersecurity professional with experience in multiple areas, including Security Operations Center (SOC) management, Vulnerability Management, and Cloud Security Analysis. I've also developed skills as a full-stack developer, which has allowed me to collaborate on the development of tools for security management and automation. Additionally, I've gained hands-on experience designing and developing security-related tools and scripts, which has helped me understand the technical aspects of cybersecurity and how to effectively implement security solutions.",
+		"As a member of a SOC team, I've worked closely with IT teams to implement and manage various security tools, including EDR, SIEM, and CASB. I've also gained experience in Vulnerability Management and Cloud Security Auditing, implementing and evaluating different security controls and tools like Vulnerability Scanners and WAF.",
+		"I'm familiar with industry-recognized security frameworks and standards, such as ISO 27001, PCI DSS, CSA CCM, NIST CSF, and CIS recommendations. I've worked closely with organizations to implement and manage their security programs aligned to these frameworks, and I'm committed to continuously learning and growing in the field of cybersecurity."
 	],
 	"ctools": [
-		"Nmap",
-		"Metasploit",
-		"Aircrack-ng",
-		"Nessus",
-		"OpenVAS",
-		"John The Reaper",
-		"Hashcat",
-		"Burpsuite Professional",
-		"Zphisher",
-		"Sherlock",
-		"Joomscan",
-		"Lynis",
-		"Wireshark",
+		"Vulnerability Scanners",
+		"Endpoint Detection and Response (EDR)",
+		"Security Information and Event Management (SIEM)",
+		"Web Application Firewall (WAF)",
 		"Multi-purpose Cloud Security Management tools",
-		"Cloud Security Posture Management",
-		"Cloud Access Security Broker"
+		"Cloud Security Posture Management (CSPM)",
+		"Cloud Access Security Broker (CASB)",
+		"Penetration testing Suite tools"
 	]
 }

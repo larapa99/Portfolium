@@ -92,10 +92,10 @@
 <footer>
 	<div class="raccoon-solutions">
 		<img
-			src={process.env.PATH + "/images/Raccoon_white.png"}
-			alt="raccoon"
+			src={process.env.PATH + "/images/glider_white.png"}
+			alt="glider"
 		/>
-		<h2>drkyofficial@gmail.com</h2>
+		<h2>larapa99@gmail.com</h2>
 	</div>
 	<div class="beta">
 		{footer.beta}
@@ -132,14 +132,14 @@
 		margin-top: 10px;
 	}
 	.raccoon-solutions img {
-		width: 50%;
+		width: 30%;
 		height: auto;
 		object-fit: cover;
 	}
 	@media only screen and (min-width: 768px) {
 		.raccoon-solutions img {
-			width: 50%;
-			max-width: 200px;
+			width: 30%;
+			max-width: 150px;
 			height: auto;
 			object-fit: cover;
 		}

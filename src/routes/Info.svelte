@@ -27,7 +27,7 @@
 			{#await preload(photo) then _}
 				<img
 					src={photo}
-					alt="DRKY"
+					alt="Ariel Lara"
 					class="photo"
 					in:blur={{ duration: 2000 }}
 				/>
@@ -42,18 +42,18 @@
 			{/each}
 			<a
 				id="download"
-				href={process.env.PATH + "/Ariel_Lara_Pedraza_CV_Nov_2022.pdf"}
+				href={process.env.PATH + "/Ariel_Lara_Pedraza_CV_Sep_2024.pdf"}
 				>{download}</a
 			>
 			<span id="download-legend">{legend}</span>
 			<div id="social-media">
-				<a href="mailto:drkyofficial@gmail.com" id="to-mail">
+				<a href="mailto:larapa99@gmail.com" id="to-mail">
 					<i class="fas fa-envelope  fa-xs" />
 				</a>
-				<a href="https://github.com/DRKY99" id="to-github">
+				<a href="https://github.com/larapa99" id="to-github">
 					<i class="fab fa-github fa-xs " />
 				</a>
-				<a href="https://www.linkedin.com/in/drky/" id="to-linkedin">
+				<a href="https://www.linkedin.com/in/larapa99/" id="to-linkedin">
 					<i class="fab fa-linkedin fa-xs" />
 				</a>
 			</div>

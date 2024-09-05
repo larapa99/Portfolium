@@ -6,11 +6,26 @@
 	"data": [
 		{
 			"key": 1,
+			"title": "Softtek",
+			"subtitle": "Gestión de vulnerabilidades y Centro de Operaciones de Seguridad",
+			"image": "__root_path/images/softtek.png",
+			"description": "Actualmente, estoy trabajando como Analista de Vulnerabilidades y miembro del Centro de Operaciones de Seguridad en Softtek. Colaboro con múltiples equipos para liderar la remediación de vulnerabilidades y mejorar la seguridad de los clientes. Además, me enfoco en la investigación de seguridad utilizando herramientas de seguridad internas para identificar riesgos y posibles violaciones de seguridad.",
+			"date": "2023 - Hoy",
+			"link": "https://softtek.com",
+			"alias": "FLEX",
+			"roles": [
+				"GestiónDeVulnerabilidades",
+				"Ciberseguridad",
+				"CentroDeOperacionesDeSeguridad"
+			]
+		},
+		{
+			"key": 2,
 			"title": "FLEX",
 			"subtitle": "Analista de Seguridad Informática",
 			"image": "__root_path/images/flex.png",
-			"description": "Actualmente, estoy trabajando como analista de seguridad informática en FLEX. Comencé como estudiante haciendo prácticas profesionales de la universidad y he recibido muy buenos comentarios acerca de mi desempeño en la compañia. He hecho contribuciones relacionados a la automatización de procesos internos, auditorias internas de seguridad en la nube, administración y operaciones de servicios en la nube, y más.",
-			"date": "2022 - Hoy",
+			"description": "Comencé como estudiante en prácticas y crecí como Analista de Seguridad Informática. También realicé múltiples contribuciones en la automatización de procesos internos, auditorías de seguridad internas, gestión y operaciones de servicios en la nube, análisis de datos y más.",
+			"date": "2022 - 2023",
 			"link": "https://flex.com",
 			"alias": "FLEX",
 			"roles": [
@@ -21,12 +36,12 @@
 			]
 		},
 		{
-			"key": 2,
+			"key": 3,
 			"title": "DIINCO",
-			"subtitle": "Lider de desarrollo y operaciones",
+			"subtitle": "Ingeniero Full-stack & Administrador de Seguridad",
 			"image": "__root_path/images/diinco.png",
 			"description": "DIINCO es una startup que proveé herramientas informáticas para la gestión de proyectos de infrastructura. He colaborado en este proyecto como ingeniero full-stack desde la fundación del equipo. Actualmente, colaboro con el equipo entrenando a nuevos miembros, integrando prácticas y herramientas de seguridad a nivel compañía. Además, en la operación y administración de servicios.",
-			"date": "2021 - Hoy",
+			"date": "2021 - 2022",
 			"link": "https://diinco.com",
 			"alias": "DIINCO",
 			"roles": [
@@ -36,26 +51,15 @@
 			]
 		},
 		{
-			"key": 3,
-			"title": "Stardeos",
-			"subtitle": "Desarrollador",
-			"image": "__root_path/images/stardeos.png",
-			"description": "Trabajé como colaborador voluntario de Stardeos por un corto periodo de tiempo, este proyecto esta siendo liderado por el Youtuber DalasReview. En este proyecto he realizado aportaciones de optimización y seguridad. Además, he realizado aportaciones como desarrollador FullStack.",
-			"date": "2021",
-			"link": "https://stardeos.com",
-			"alias": "Stardeos",
-			"roles": ["DesarrolladorFullstack"]
-		},
-		{
 			"key": 4,
 			"title": "El Tepetate",
 			"subtitle": "Desarrollador FullStack",
 			"image": "__root_path/images/eltepetate.png",
-			"description": "Como proyecto de la Fábrica Académica de Software del Instituto Tecnológico de Morelia, realizamos una plataforma de administración para la granja trutícola El tepetate, basada en tecnologías web. Este proyecto formó parte de un concurso de ingeniería dentro de la institución en el cual mi equipo (Raccoon Solutions) empató en primer lugar con Dragonware.",
+			"description": "Como proyecto de la Fábrica Académica de Software del Instituto Tecnológico de Morelia, realizamos una plataforma de administración para la granja trutícola El tepetate, basada en tecnologías web. Este proyecto formó parte de un concurso de ingeniería dentro de la institución.",
 			"date": "2019 - 2020",
 			"link": "https://www.granjadetruchas.com/",
 			"alias": "el tepetate",
-			"roles": ["DesarrolladorFullStack", "LiderDeEquipo", "Diseñador"],
+			"roles": ["DesarrolladorFullStack", "LíderDeEquipo", "Diseñador"],
 			"note": "Fábrica Académica de Software"
 		},
 		{
@@ -63,7 +67,7 @@
 			"title": "Maestría en Ingeniería Administrativa",
 			"subtitle": "Desarrollador Frontend",
 			"image": "__root_path/images/mia.png",
-			"description": "Como proyecto de servicio social, mi compañero devcydo y yo, nos encagamos de la página de presentación de la Maestría en Ingeniería Administrativa del Instituto Tecnológico de Morelia. Además de este proyecto, realizamos mantenimiento de software y hardware al equipo de computo del laboratorio de Ingeniería Industrial y realizamos un manual de introduccion al análisis estadístico con Python.",
+			"description": "Como proyecto de servicio social, mi compañero devcydo y yo, nos encargamos de la página de presentación de la Maestría en Ingeniería Administrativa del Instituto Tecnológico de Morelia. Además de este proyecto, realizamos mantenimiento de software y hardware al equipo de computo del laboratorio de Ingeniería Industrial y realizamos un manual de introducción al análisis estadístico con Python.",
 			"date": "2021",
 			"link": "https://morelia.tecnm.mx/mia/",
 			"alias": "MIA",
@@ -74,26 +78,18 @@
 	"header": "Experiencia",
 	"goto": "ir a",
 	"description": [
-		"Dentro de la especialidad de ciberseguridad he trabajado en varios proyectos academicos relacionados a esta área. Estas actividades incluyen la configuración de routers y switches de Cisco, configuración de firewall con IPtables y mikrotiks, hardening con SELinux, planeación y configuración de Sistemas de Gestión de la Seguridad de la Información (SGSI), configuración de herramientas basadas en virtualización (TrueNAS, XenServer, VMware EXSi, OpenStack, Docker y Kubernetes), prácticas de escaneo de redes, practicas de pruebas de penetración y explotación de vulnerabilidades, prácticas de fortalecimiento de sistemas, prácticas de enctiptación unidireccional y bidireccional.",
-		"He tenido la oportunidad de entrar al equipo de Seguridad en la nube de FLEX como estudiante. Actualmente estoy trabajando como analista de seguridad informática. He trabajado con tecnologías de la nube y herramientas y equipos de seguridad de alto nivel.",
-		"He trabajado con la suite de herramientas de Kali Linux y de Parrot OS para pruebas de penetración y explotación de vulnerabilidades, también he administrado diversas herramientas de seguridad preventiva."
+		"Soy un profesional en ciberseguridad con experiencia en múltiples áreas, incluyendo gestión de centros de operaciones de seguridad (SOC), gestión de vulnerabilidades y análisis de seguridad en la nube. También he desarrollado habilidades como desarrollador full-stack, lo que me ha permitido colaborar en el desarrollo de herramientas para la gestión de seguridad y automatización. Además, tengo experiencia práctica diseñando y desarrollando herramientas y scripts relacionados con la seguridad, lo que me ha ayudado a entender los aspectos técnicos de la ciberseguridad y cómo implementar eficazmente soluciones de seguridad.",
+		"Como miembro del equipo de un SOC, he trabajado estrechamente con equipos IT para implementar y gestionar herramientas de seguridad como EDR, SIEM y CASB. También tengo experiencia en gestión de vulnerabilidades y auditoría de seguridad en la nube, implementando y evaluando diferentes controles y herramientas de seguridad como escáneres de vulnerabilidades y WAF.",
+		"Estoy familiarizado con los marcos y estándares de ciberseguridad reconocidos a nivel internacional, como ISO 27001, PCI DSS, CSA CCM, NIST CSF y recomendaciones de CIS. He trabajado estrechamente con organizaciones para implementar y gestionar sus programas de seguridad alineados con estos marcos, y estoy comprometido a seguir aprendiendo y creciendo en el campo de la ciberseguridad."
 	],
 	"ctools": [
-		"Nmap",
-		"Metasploit",
-		"Aircrack-ng",
-		"Nessus",
-		"OpenVAS",
-		"John The Reaper",
-		"Hashcat",
-		"Burpsuite Professional",
-		"Zphisher",
-		"Sherlock",
-		"Joomscan",
-		"Lynis",
-		"Wireshark",
+		"Vulnerability Scanners",
+		"Endpoint Detection and Response (EDR)",
+		"Security Information and Event Management (SIEM)",
+		"Web Application Firewall (WAF)",
 		"Multi-purpose Cloud Security Management tools",
-		"Cloud Security Posture Management",
-		"Cloud Access Security Broker"
+		"Cloud Security Posture Management (CSPM)",
+		"Cloud Access Security Broker (CASB)",
+		"Penetration testing Suite tools"
 	]
 }

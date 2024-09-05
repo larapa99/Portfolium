@@ -9,7 +9,7 @@
 				"__root_path/screenshots/SocketChat2.png"
 			],
 			"description": "The web on real time functionalities are pretty important nowadays, a useful tool for this propose are web sockets. This demo is a Socket.IO implementation for a real time web chat.",
-			"repo_link": "https://github.com/DRKY99/SocketChat"
+			"repo_link": "https://github.com/larapa99/SocketChat"
 		},
 		{
 			"key": 2,
@@ -20,7 +20,7 @@
 				"__root_path/screenshots/Cypher2.png"
 			],
 			"description": "One of the most important topics on Cybersecurity is the cryptography, this tool presents an implementation of some weak encryption algorithms so that they are easy to understand, this program was created for educational purposes.",
-			"repo_link": "https://github.com/DRKY99/Cypher"
+			"repo_link": "https://github.com/larapa99/Cypher"
 		},
 		{
 			"key": 3,

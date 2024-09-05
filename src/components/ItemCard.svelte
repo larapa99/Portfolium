@@ -36,7 +36,7 @@
 	.container {
 		display: flex;
 		flex-direction: column;
-		margin: 10px;
+		margin: 20px;
 	}
 	.container p {
 		margin-top: 10px;
@@ -44,8 +44,8 @@
 		opacity: 0.5;
 	}
 	.image {
-		height: 50px;
-		width: 50px;
+		height: 40px;
+		width: 40px;
 		object-fit: contain;
 		align-self: center;
 	}
@@ -60,12 +60,17 @@
 
 	@media only screen and (min-width: 768px) {
 		.image {
-			height: 100px;
-			width: 100px;
+			height: 80px;
+			width: 80px;
 		}
 		.stars i {
 			color: var(--yellow);
 			font-size: 1rem;
 		}
+		.container {
+		display: flex;
+		flex-direction: column;
+		margin: 40px;
+	}
 	}
 </style>

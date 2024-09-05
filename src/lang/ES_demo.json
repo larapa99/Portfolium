@@ -9,7 +9,7 @@
 				"__root_path/screenshots/SocketChat2.png"
 			],
 			"description": "Las funciones de la web en tiempo real son muy importantes hoy en día, una herramienta útil para este propósito son los web sockets. Este demo es una implementación básica de Socket.IO para una aplicación web de chat en tiempo real.",
-			"repo_link": "https://github.com/DRKY99/SocketChat"
+			"repo_link": "https://github.com/larapa99/SocketChat"
 		},
 		{
 			"key": 2,
@@ -20,7 +20,7 @@
 				"__root_path/screenshots/Cypher2.png"
 			],
 			"description": "Uno de los temas más importantes de la ciberseguridad es la criptografía, en esta herramienta se presenta la implementación de algunos algorítmos de cifrado débil de forma que sean fáciles de compreender, este programa fue elaborado con fines didácticos.",
-			"repo_link": "https://github.com/DRKY99/Cypher"
+			"repo_link": "https://github.com/larapa99/Cypher"
 		},
 		{
 			"key": 3,

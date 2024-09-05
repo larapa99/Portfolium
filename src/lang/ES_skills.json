@@ -9,14 +9,14 @@
 	"header": "Habilidades",
 	"langs": [
 		{
-			"name": "Inglés",
+			"name": "English",
 			"level": 4,
 			"image": "__root_path/images/en.png"
 		},
 		{
-			"name": "Español",
+			"name": "Spanish",
 			"level": 5,
-			"note": "Lenguaje principal",
+			"note": "Mother Language",
 			"image": "__root_path/images/spa.png"
 		}
 	],
@@ -52,36 +52,6 @@
 			"level": 4
 		},
 		{
-			"name": "C#",
-			"image": "__root_path/images/csharp.png",
-			"level": 4.5
-		},
-		{
-			"name": "C",
-			"image": "__root_path/images/c.png",
-			"level": 4
-		},
-		{
-			"name": "Kotlin",
-			"image": "__root_path/images/kotlin.png",
-			"level": 4
-		},
-		{
-			"name": "SQL",
-			"image": "__root_path/images/sql.png",
-			"level": 4.5
-		},
-		{
-			"name": "Assembly",
-			"image": "__root_path/images/asm.png",
-			"level": 3
-		},
-		{
-			"name": "TypeScript",
-			"image": "__root_path/images/typescript.png",
-			"level": 4
-		},
-		{
 			"name": "Bash",
 			"image": "__root_path/images/bash.png",
 			"level": 4
@@ -92,21 +62,6 @@
 			"name": "React/Native",
 			"image": "__root_path/images/react.png",
 			"level": 4.5
-		},
-		{
-			"name": "Materialize CSS",
-			"image": "__root_path/images/materialize.png",
-			"level": 5
-		},
-		{
-			"name": "Bootstrap",
-			"image": "__root_path/images/bootstrap.png",
-			"level": 4.5
-		},
-		{
-			"name": "UIkit CSS",
-			"image": "__root_path/images/uikit.png",
-			"level": 5
 		},
 		{
 			"name": "JWT",
@@ -144,40 +99,45 @@
 			"level": 4
 		},
 		{
-			"name": "Material UI",
-			"image": "__root_path/images/materialui.png",
-			"level": 5
-		},
-		{
 			"name": "Selenium",
 			"image": "__root_path/images/selenium.png",
-			"level": 4
-		},
-		{
-			"name": "jQuery",
-			"image": "__root_path/images/jquery.png",
-			"level": 4
-		},
-		{
-			"name": "WordPress",
-			"image": "__root_path/images/wordpress.png",
 			"level": 4
 		}
 	],
 	"tools": [
 		{
-			"name": "VirtualBox",
-			"image": "__root_path/images/virtualbox.png",
-			"level": 4.5
+			"name": "Zscaler",
+			"image": "__root_path/images/zscaler.png",
+			"level": 3
 		},
 		{
-			"name": "VMWare",
-			"image": "__root_path/images/vmware.png",
-			"level": 4.5
+			"name": "CrowdStrike",
+			"image": "__root_path/images/crowdstrike.png",
+			"level": 3
 		},
 		{
-			"name": "Hyper-V",
-			"image": "__root_path/images/hyperv.png",
+			"name": "Security Scorecard",
+			"image": "__root_path/images/scorecard.png",
+			"level": 3
+		},
+		{
+			"name": "QRadar",
+			"image": "__root_path/images/qradar.png",
+			"level": 3
+		},
+		{
+			"name": "Nessus",
+			"image": "__root_path/images/nessus.png",
+			"level": 3
+		},
+		{
+			"name": "MegaplanIT",
+			"image": "__root_path/images/megaplanit.png",
+			"level": 3
+		},
+		{
+			"name": "Azure Windows Defender",
+			"image": "__root_path/images/defender.png",
 			"level": 3
 		},
 		{
@@ -211,68 +171,8 @@
 			"level": 3
 		},
 		{
-			"name": "Packet Tracer",
-			"image": "__root_path/images/ptracer.png",
-			"level": 3
-		},
-		{
-			"name": "Photoshop",
-			"image": "__root_path/images/photoshop.png",
-			"level": 3
-		},
-		{
-			"name": "Illustrator",
-			"image": "__root_path/images/illustrator.png",
-			"level": 3
-		},
-		{
-			"name": "Medibang",
-			"image": "__root_path/images/medibang.png",
-			"level": 4
-		},
-		{
-			"name": "Krita",
-			"image": "__root_path/images/krita.png",
-			"level": 3.5
-		},
-		{
-			"name": "Gimp",
-			"image": "__root_path/images/gimp.png",
-			"level": 2
-		},
-		{
-			"name": "Android Studio",
-			"image": "__root_path/images/astudio.png",
-			"level": 2
-		},
-		{
-			"name": "Cinema 4D",
-			"image": "__root_path/images/c4d.png",
-			"level": 2
-		},
-		{
-			"name": "Cheat Engine",
-			"image": "__root_path/images/cengine.png",
-			"level": 3
-		},
-		{
-			"name": "Microsoft Office",
-			"image": "__root_path/images/moffice.png",
-			"level": 4
-		},
-		{
 			"name": "Microsoft Excel",
 			"image": "__root_path/images/excel.png",
-			"level": 4
-		},
-		{
-			"name": "QEMU",
-			"image": "__root_path/images/qemu.png",
-			"level": 4
-		},
-		{
-			"name": "Tableau",
-			"image": "__root_path/images/tableau.png",
 			"level": 4
 		}
 	],
@@ -318,43 +218,8 @@
 			"level": 4
 		},
 		{
-			"name": "SQLite",
-			"image": "__root_path/images/sqlite.png",
-			"level": 4
-		},
-		{
-			"name": "MariaDB",
-			"image": "__root_path/images/mariadb.png",
-			"level": 4.5
-		},
-		{
-			"name": "MongoDB",
-			"image": "__root_path/images/mongo.png",
-			"level": 4
-		},
-		{
-			"name": "PostgreSQL",
-			"image": "__root_path/images/postgresql.png",
-			"level": 4.5
-		},
-		{
-			"name": "Redis",
-			"image": "__root_path/images/redis.png",
-			"level": 2
-		},
-		{
-			"name": "Firebase",
-			"image": "__root_path/images/firebase.png",
-			"level": 3.5
-		},
-		{
 			"name": "Docker",
 			"image": "__root_path/images/docker.png",
-			"level": 3
-		},
-		{
-			"name": "Apache",
-			"image": "__root_path/images/apache.png",
 			"level": 3
 		},
 		{
@@ -363,24 +228,9 @@
 			"level": 4
 		},
 		{
-			"name": "HTML",
-			"image": "__root_path/images/html.png",
-			"level": 5
-		},
-		{
-			"name": "CSS",
-			"image": "__root_path/images/css.png",
-			"level": 4
-		},
-		{
 			"name": "GIT",
 			"image": "__root_path/images/git.png",
 			"level": 4
-		},
-		{
-			"name": "Android",
-			"image": "__root_path/images/android.png",
-			"level": 2
 		},
 		{
 			"name": "Raspberry Pi",

@@ -21,13 +21,12 @@
 		"description": "Adicional a mis estudios, la programación y la ingeniería; tengo otros pasatiempos que han ayudado a mi crecimiento personal en ámbito de destreza y creatividad, algunos de estos pasatiempos son:",
 		"data": [
 			"Dibujo digital",
-			"Diseño gráfico",
 			"Baristería",
 			"Videojuegos",
-			"Series y películas",
-			"electrónica",
-			"Testeo de distros",
-			"cocina"
+			"Electrónica",
+			"Filosofía y política",
+			"Cocina",
+			"Música"
 		]
 	},
 	"interests": {
@@ -37,15 +36,15 @@
 		"data": [
 			"ciberseguridad",
 			"sistemas operativos",
-			"probabilidad y estadística",
+			"Desarrollo de cheats para videojuegos",
 			"Programación de bajo nivel",
-			"Baristería",
-			"electrónica",
+			"Arduino y RPi",
+			"Docker y Kubernetes",
 			"privacidad",
-			"Blockchain",
-			"Crypto",
-			"fintech",
-			"Dibujo digital",
+			"periodismo y comunicación",
+			"Criptografía",
+			"Ética en TI",
+			"Inteligencia Artificial",
 			"entre otros..."
 		]
 	},

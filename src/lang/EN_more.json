@@ -14,38 +14,37 @@
 			"__root_path/gallery/anime.jpg"
 		],
 		"header": "Gallery",
-		"description": "On my free time I have made some digital drawing projects, I made the logo and pet for @covita_bazar, this is a second hand e-bazar in Morelia. Also, I have made some graphic design projects. I consider digital drawing as one of my favourite hobbies since many years ago, next you can see some of the work I have made."
+		"description": "On my free time I have made some digital drawing projects, I made the logo and mascot for @covita_bazar, this is a second hand e-bazar in Morelia. Also, I have made some graphic design projects. I consider digital drawing as one of my favorite hobbies since many years ago, next you can see some of the work I have made."
 	},
 	"hobbies": {
 		"header": "Hobbies",
 		"description": "Besides my studies, programming and engineering; I have another hobbies that have helped to my personal growth in terms of skill and creativity, some of them are:",
 		"data": [
 			"digital drawing",
-			"graphic design",
 			"latte art",
 			"videogames",
-			"Movies and series",
 			"electronics",
-			"Distro Testing",
-			"cooking"
+			"philosophy and politics",
+			"cooking",
+			"Music"
 		]
 	},
 	"interests": {
 		"header": "Interests",
 		"subtitle": "I'm an Open Source Community enthusiast!",
-		"description": "Within the scope of informatics, I have afinity on the Open Source Community and its ethical values; I'm a GNU/LInux and AOSP enthusiast. Also, I have interest for the next topics:",
+		"description": "Within the scope of informatics, I have affinity on the Open Source Community and its ethical values; I'm a GNU/LInux and AOSP enthusiast. Also, I have interest for the next topics:",
 		"data": [
 			"cibersecurity",
 			"operative systems",
-			"probability & statistics",
+			"Game cheating development",
 			"low level programming",
-			"latte art",
-			"electronics",
+			"Arduino and RPi",
+			"Docker and Kubernetes",
 			"privacy",
-			"blockchain",
-			"crypto",
-			"fintech",
-			"digital drawing",
+			"journalism and communication",
+			"cryptography",
+			"IT Ethics",
+			"Artificial Intelligence",
 			"many more..."
 		]
 	},
